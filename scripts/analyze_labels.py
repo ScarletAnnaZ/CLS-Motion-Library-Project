@@ -30,7 +30,7 @@ def analyze_labels(labels_dict):
     description_counts = df['description'].value_counts().reset_index()
     description_counts.columns = ['Label', 'Count']
     
-    # CSV
+    # store as CSV
     category_counts.to_csv(os.path.join(OUTPUT_DIR, 'category_counts.csv'), index=False)
     description_counts.to_csv(os.path.join(OUTPUT_DIR, 'description_counts.csv'), index=False)
     
