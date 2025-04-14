@@ -19,38 +19,36 @@ def read_bvh(filepath):
 def interpolate_bvh(bvh_data, original_data, target_frames):
     original_frames = len(bvh_data.frames)
     if original_frames >= target_frames:
-        return original_data  # 如果已经超过目标帧数，跳过
+        return original_data  # If the target frame number has been exceeded, skip
 
-    # 获取原始帧数据
+    # Get the raw frame data
     frame_data = np.array(bvh_data.frames, dtype=float)
 
-    # 获取数据维度（每一帧的骨架数据数量）
+    # Get data dimension（Number of skeleton data per frame)
     num_joints = frame_data.shape[1]
 
-    # 原始帧索引
+    # Raw frame index
     original_indices = np.arange(original_frames)
 
-    # 目标帧索引
+    # Target frame index
     target_indices = np.linspace(0, original_frames - 1, target_frames)
 
-    # 对每一个关节的数据进行插值
+    # interpolate
     interpolated_frames = []
     for joint_index in range(num_joints):
         joint_data = frame_data[:, joint_index]
         interpolated_joint_data = np.interp(target_indices, original_indices, joint_data)
         interpolated_frames.append(interpolated_joint_data)
 
-    # 转换成 (帧数, 关节数) 的格式
     interpolated_frames = np.array(interpolated_frames).T
 
-    # 修改原始数据中的帧列表
+    # Modify the list of frames in the original data
     bvh_data.frames = interpolated_frames.tolist()
 
-    # 修改文件头部信息
     processed_data = original_data.replace(f"Frames: {original_frames}", f"Frames: {target_frames}")
     processed_data = processed_data.replace(f"Frame Time: {bvh_data.frame_time}", f"Frame Time: {1 / 120}")
 
-    # 添加插值后的数据行
+    # Add the interpolated data row
     motion_data = ""
     for frame in interpolated_frames:
         frame_line = " ".join([f"{v:.6f}" for v in frame])
@@ -75,13 +73,11 @@ def process_files(csv_file, data_dir, processed_dir):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         
         try:
-            # 读取原始 BVH 文件
             bvh_data, original_data = read_bvh(file_path)
             
-            # 插值处理
+            # interpolation
             processed_data = interpolate_bvh(bvh_data, original_data, TARGET_FRAMES)
             
-            # 保存处理后的文件
             save_bvh(processed_data, output_path)
             
             print(f"✅ Processed: {relative_path}")
