@@ -13,7 +13,7 @@ def load_labels(file_path):
         return json.load(f)
 
 def analyze_labels(labels_dict):
-    # Fetch labeled data
+    # 
     categories = [v['category'] for v in labels_dict.values()]
     descriptions = [v['description'] for v in labels_dict.values()]
     
