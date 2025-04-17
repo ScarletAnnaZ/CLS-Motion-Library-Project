@@ -66,7 +66,9 @@ def main():
     labels = []
 
     for motion_id, info in label_data.items():
-        rel_path = motion_id if '/' not in motion_id else os.path.basename(motion_id)
+        filename = motion_id if motion_id.endswith('.bvh') else motion_id + '.bvh'
+        rel_path = filename if '/' not in filename else os.path.basename(filename)
+        
         full_path = os.path.join(DATA_DIR, rel_path)
         if not os.path.exists(full_path):
             continue
@@ -79,6 +81,8 @@ def main():
             print(f"✅ Extracted features: {motion_id}")
         except Exception as e:
             print(f"❌ Failed: {motion_id} — {e}")
+    
+
 
     # 生成 DataFrame
     df = pd.DataFrame(all_vectors)
