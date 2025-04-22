@@ -4,12 +4,13 @@ import numpy as np
 import pandas as pd
 from bvh import Bvh
 
+# 项目路径
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABEL_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
 
-# The channel to be extracted (scalable)
+# 要提取的通道（可扩展）
 POSITION_CHANNELS = ['Xposition', 'Yposition', 'Zposition']
 ROTATION_CHANNELS = ['Zrotation', 'Xrotation', 'Yrotation']
 
@@ -18,7 +19,7 @@ def extract_bvh_features(filepath, motion_id):
         bvh = Bvh(f.read())
 
     joint_channels = {}
-    # Collect the channels of all joints (only positional rotation)
+    # 收集所有关节的通道（仅位置 + 旋转）
     for joint in bvh.get_joints():
         name = joint.name
         channels = bvh.joint_channels(joint)
@@ -26,7 +27,7 @@ def extract_bvh_features(filepath, motion_id):
         if filtered:
             joint_channels[name] = filtered
 
-    # Collect all frame data
+    # 收集所有帧数据
     all_features = []
     for i in range(len(bvh.frames)):
         frame_data = []
@@ -39,7 +40,7 @@ def extract_bvh_features(filepath, motion_id):
                     frame_data.append(0.0)
         all_features.append(frame_data)
 
-    # Convert it into a matrix and calculate the statistics
+    # 转成矩阵并计算统计量
     data = np.array(all_features)  # shape = (600, num_features)
     feature_dict = {
         'motion_id': motion_id,
@@ -65,10 +66,22 @@ def main():
     labels = []
 
     for motion_id, info in label_data.items():
-        filename = motion_id if motion_id.endswith('.bvh') else motion_id + '.bvh'
-        rel_path = filename if '/' not in filename else os.path.basename(filename)
-        
-        full_path = os.path.join(DATA_DIR, rel_path)
+        if not motion_id.endswith(".bvh"):
+            motion_id += ".bvh"
+
+            folder = motion_id.split("_")[0]  # 如 144
+            rel_path = os.path.join(folder, motion_id)
+            full_path = os.path.join(DATA_DIR, rel_path)
+
+
+    # # 路径检查调试
+        if not os.path.exists(full_path):
+           print(f"⚠️ File not found: {full_path}")
+           continue
+        else:
+           print(f"📄 Found file: {full_path}")
+
+
         if not os.path.exists(full_path):
             continue
         try:
@@ -80,10 +93,8 @@ def main():
             print(f"✅ Extracted features: {motion_id}")
         except Exception as e:
             print(f"❌ Failed: {motion_id} — {e}")
-    
 
-
-    # DataFrame
+    # 生成 DataFrame
     df = pd.DataFrame(all_vectors)
     df['motion_id'] = motion_ids
     df['Label'] = labels
