@@ -4,13 +4,12 @@ import numpy as np
 import pandas as pd
 from bvh import Bvh
 
-# 项目路径
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABEL_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
 
-# 要提取的通道（可扩展）
+# The channel to be extracted (scalable)
 POSITION_CHANNELS = ['Xposition', 'Yposition', 'Zposition']
 ROTATION_CHANNELS = ['Zrotation', 'Xrotation', 'Yrotation']
 
@@ -19,7 +18,7 @@ def extract_bvh_features(filepath, motion_id):
         bvh = Bvh(f.read())
 
     joint_channels = {}
-    # 收集所有关节的通道（仅位置 + 旋转）
+    # Collect the channels of all joints (only positional rotation)
     for joint in bvh.get_joints():
         name = joint.name
         channels = bvh.joint_channels(joint)
@@ -27,7 +26,7 @@ def extract_bvh_features(filepath, motion_id):
         if filtered:
             joint_channels[name] = filtered
 
-    # 收集所有帧数据
+    # Collect all frame data
     all_features = []
     for i in range(len(bvh.frames)):
         frame_data = []
@@ -40,7 +39,7 @@ def extract_bvh_features(filepath, motion_id):
                     frame_data.append(0.0)
         all_features.append(frame_data)
 
-    # 转成矩阵并计算统计量
+    # Convert it into a matrix and calculate the statistics
     data = np.array(all_features)  # shape = (600, num_features)
     feature_dict = {
         'motion_id': motion_id,
@@ -84,7 +83,7 @@ def main():
     
 
 
-    # 生成 DataFrame
+    # DataFrame
     df = pd.DataFrame(all_vectors)
     df['motion_id'] = motion_ids
     df['Label'] = labels
