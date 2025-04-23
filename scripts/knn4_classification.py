@@ -10,6 +10,7 @@ import seaborn as sns
 # 路径设置
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'knn4_features.csv')
+print("🔍 Looking for:", FEATURE_FILE)
 
 # 加载特征数据
 df = pd.read_csv(FEATURE_FILE)
