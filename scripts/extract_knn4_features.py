@@ -5,7 +5,7 @@ import pandas as pd
 from bvh import Bvh
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed_bvhtest')
+DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABELS_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'knn4_features.csv')
 

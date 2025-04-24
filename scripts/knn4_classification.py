@@ -9,7 +9,6 @@ import seaborn as sns
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'knn4_features.csv')
-print("🔍 Looking for:", FEATURE_FILE)
 
 # read features data
 df = pd.read_csv(FEATURE_FILE)
@@ -19,8 +18,7 @@ X = df[['Root_Y_mean', 'Head_Z_std', 'LeftKnee_Y_std', 'RightElbow_X_mean']].val
 y = df['Label'].values
 
 # split to train and test dataset
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # initial and train
 knn = KNeighborsClassifier(n_neighbors=5)

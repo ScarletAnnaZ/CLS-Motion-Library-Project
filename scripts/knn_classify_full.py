@@ -9,7 +9,7 @@ import seaborn as sns
 
 # 文件路径
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
+FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'knn4_features.csv')
 
 # 加载数据
 df = pd.read_csv(FEATURE_FILE)
