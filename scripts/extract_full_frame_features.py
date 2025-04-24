@@ -4,10 +4,11 @@ import numpy as np
 import pandas as pd
 from bvh import Bvh
 
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed_bvhtest')
+DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABEL_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
-OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
+OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_frame_features.csv')
 
 # 想要提取的通道
 POSITION_CHANNELS = ['Xposition', 'Yposition', 'Zposition']
@@ -74,7 +75,7 @@ def main():
             vector = build_feature_vector(stats)
             all_vectors.append(vector)
             all_ids.append(motion_id)
-            all_cats.append(info['category'])
+            all_cats.append(info['description'])
             print(f"✅ Processed: {motion_id}")
         except Exception as e:
             print(f"❌ Error {motion_id}: {e}")
