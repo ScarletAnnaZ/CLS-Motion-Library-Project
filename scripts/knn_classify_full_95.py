@@ -16,7 +16,7 @@ df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=[ 'Label']).values
 y = df['Label'].values
 
-# split train and test dataset
+# split train and test 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # create and train KNN model
