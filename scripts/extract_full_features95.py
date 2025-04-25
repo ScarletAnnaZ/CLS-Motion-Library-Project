@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESSED_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'output', 'features')
 LABELS_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
-SUMMARY_FILE = os.path.join(BASE_DIR, 'output', 'bvh_summary.csv')  # 全量
+SUMMARY_FILE = os.path.join(BASE_DIR, 'output', 'bvh_summary.csv')  
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'full_features.csv')
 TARGET_FRAMES = 600
 
