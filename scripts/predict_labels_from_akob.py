@@ -9,6 +9,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')  # 修改为你具体文件名
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_model.pkl')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
+CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
+with open(CHANNEL_JSON) as f:
+    joint_channels = json.load(f)
+
 
 # read bvh
 def read_bvh(filepath):
@@ -17,13 +21,23 @@ def read_bvh(filepath):
     return bvh
 
 #extract features
-def extract_summary_features(frames_600):
-    stats = []
-    stats.extend(np.mean(frames_600, axis=0))
-    stats.extend(np.std(frames_600, axis=0))
-    stats.extend(np.min(frames_600, axis=0))
-    stats.extend(np.max(frames_600, axis=0))
-    return np.array(stats)
+
+def extract_framewise_features(bvh, joint_channels):
+    all_frames = []
+
+    for i in range(len(bvh.frames)):
+        frame_data = []
+        for jc in joint_channels:
+            joint, ch = jc.split("_")
+            try:
+                val = float(bvh.frame_joint_channel(i, joint, ch))
+            except:
+                val = 0.0
+            frame_data.append(val)
+        all_frames.append(frame_data)
+
+    return np.array(all_frames)  # shape = (num_frames, 96)
+
 
 # process
 def main():
