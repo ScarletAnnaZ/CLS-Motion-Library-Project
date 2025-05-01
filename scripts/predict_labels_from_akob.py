@@ -65,28 +65,28 @@ def main():
 # ===============================
 #  ！！ Aggregating every 600 frames--6s
 # ===============================
-print("\n🔄 Aggregating every 600 frames...")
+    print("\n🔄 Aggregating every 600 frames...")
 
-SEGMENT_SIZE = 600  # Each section has 600 frames
-FPS = 100  # AKOB frame rate
+    SEGMENT_SIZE = 600  # Each section has 600 frames
+    FPS = 100  # AKOB frame rate
 
-segment_labels = []
-num_segments = len(label_list) // SEGMENT_SIZE
+    segment_labels = []
+    num_segments = len(label_list) // SEGMENT_SIZE
 
-for s in range(num_segments):
-    segment = label_list[s * SEGMENT_SIZE : (s + 1) * SEGMENT_SIZE]
-    labels = [lbl for _, lbl in segment]
-    dominant = max(set(labels), key=labels.count)  # voting
-    start_sec = s * SEGMENT_SIZE / FPS
-    end_sec = (s + 1) * SEGMENT_SIZE / FPS
-    segment_labels.append((f"{start_sec:.2f}-{end_sec:.2f} sec", dominant))
-    print(f"🟢 {start_sec:.2f}-{end_sec:.2f}s → {dominant}")
+    for s in range(num_segments):
+        segment = label_list[s * SEGMENT_SIZE : (s + 1) * SEGMENT_SIZE]
+        labels = [lbl for _, lbl in segment]
+        dominant = max(set(labels), key=labels.count)  # voting
+        start_sec = s * SEGMENT_SIZE / FPS
+        end_sec = (s + 1) * SEGMENT_SIZE / FPS
+        segment_labels.append((f"{start_sec:.2f}-{end_sec:.2f} sec", dominant))
+        print(f"🟢 {start_sec:.2f}-{end_sec:.2f}s → {dominant}")
 
-# csv
-segment_df = pd.DataFrame(segment_labels, columns=["Time Segment", "Dominant Label"])
-segment_csv = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
-segment_df.to_csv(segment_csv, index=False)
-print(f"\n✅ Segment-level label list saved to {segment_csv}")
+    # csv
+    segment_df = pd.DataFrame(segment_labels, columns=["Time Segment", "Dominant Label"])
+    segment_csv = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
+    segment_df.to_csv(segment_csv, index=False)
+    print(f"\n✅ Segment-level label list saved to {segment_csv}")
 
 
 if __name__ == "__main__":
