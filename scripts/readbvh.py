@@ -5,14 +5,14 @@ from bvh import Bvh
 import json
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BVH_FILE = os.path.join(BASE_DIR, 'data', '01', '01_01.bvh')
+BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
 output_path = "/Users/anzhai/motion-library-project/output/features/extract_joint_channels.json"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
 with open(BVH_FILE, "r") as f:
     bvh = Bvh(f.read())
 print("CHANNEL NUMBER = ", len(bvh.get_joints()))  # 总关节数
-print("Data dimension of each frame = ", len(bvh.frames[0]))  # 每帧的 feature 数
+print("Number of features per frame = ", len(bvh.frames[0]))  # 每帧的 feature 数
 
 
 joint_channels = []
@@ -26,12 +26,13 @@ for joint in bvh.get_joints():
     except:
         continue
 
-print(f"Total channels = {len(joint_channels)}")
+print(f"Total channels() = {len(joint_channels)}")
 for i, ch in enumerate(joint_channels):
     print(f"{i+1:02d}: {ch}")
-
+    
+'''
 # 保存 joint_channels 列表为 JSON 文件
 with open(output_path, "w") as f:
-    json.dump(joint_channels, f, indent=2)
+    json.dump(joint_channels, f, indent=2) 
 
-print(f"\n✅ Channel list saved to {output_path}")
+print(f"\n✅ Channel list saved to {output_path}")'''

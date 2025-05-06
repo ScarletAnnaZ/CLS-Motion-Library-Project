@@ -44,14 +44,14 @@ def main():
     with open(CHANNEL_JSON) as f:
         joint_channels = json.load(f)
 
-    print(f"📦 Extracting framewise features (channels: {len(joint_channels)})...")
+    print(f"✅ Extracting framewise features (channels: {len(joint_channels)})...")
     frame_features = extract_framewise_features(bvh, joint_channels)
     print(f"✅ Extracted frame features: {frame_features.shape}")
 
-    print("📦 Loading trained KNN model...")
+    print("✅ Loading trained KNN model...")
     knn = joblib.load(MODEL_PATH)
 
-    print("🧠 Predicting...")
+    print("✍️ Predicting...")
     label_list = []
     for i in range(len(frame_features)):
         feature_vec = frame_features[i].reshape(1, -1)
