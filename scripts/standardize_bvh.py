@@ -5,7 +5,7 @@ from bvh import Bvh
 # Project root
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
-OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 
 # normalizing parameter
 TARGET_FPS = 120
