@@ -1,0 +1,37 @@
+Time Segment,Dominant Label,Response Label,Selected Motion
+0.00-6.00 sec,elephant (human subject),elephant (human subject),28_18.bvh
+6.00-12.00 sec,salsa dance,unknown_action,no_motion_found
+12.00-18.00 sec,salsa dance,unknown_action,no_motion_found
+18.00-24.00 sec,salsa dance,unknown_action,no_motion_found
+24.00-30.00 sec,salsa dance,unknown_action,no_motion_found
+30.00-36.00 sec,salsa dance,unknown_action,no_motion_found
+36.00-42.00 sec,salsa dance,unknown_action,no_motion_found
+42.00-48.00 sec,"walking, running, kicking, punching, knee kicking, and stretching",unknown_action,no_motion_found
+48.00-54.00 sec,nursery rhyme - Cock Robin,nursery rhyme - Cock Robin,26_07.bvh
+54.00-60.00 sec,nursery rhyme - Cock Robin,nursery rhyme - Cock Robin,31_04.bvh
+60.00-66.00 sec,salsa dance,unknown_action,no_motion_found
+66.00-72.00 sec,salsa dance,unknown_action,no_motion_found
+72.00-78.00 sec,salsa dance,unknown_action,no_motion_found
+78.00-84.00 sec,salsa dance,unknown_action,no_motion_found
+84.00-90.00 sec,salsa dance,unknown_action,no_motion_found
+90.00-96.00 sec,salsa dance,unknown_action,no_motion_found
+96.00-102.00 sec,snake (human subject),unknown_action,no_motion_found
+102.00-108.00 sec,salsa dance,unknown_action,no_motion_found
+108.00-114.00 sec,salsa dance,unknown_action,no_motion_found
+114.00-120.00 sec,salsa dance,unknown_action,no_motion_found
+120.00-126.00 sec,salsa dance,unknown_action,no_motion_found
+126.00-132.00 sec,salsa dance,unknown_action,no_motion_found
+132.00-138.00 sec,salsa dance,unknown_action,no_motion_found
+138.00-144.00 sec,salsa dance,unknown_action,no_motion_found
+144.00-150.00 sec,salsa dance,unknown_action,no_motion_found
+150.00-156.00 sec,nursery rhyme - Cock Robin,nursery rhyme - Cock Robin,28_04.bvh
+156.00-162.00 sec,nursery rhyme - Cock Robin,nursery rhyme - Cock Robin,27_10.bvh
+162.00-168.00 sec,salsa dance,unknown_action,no_motion_found
+168.00-174.00 sec,salsa dance,unknown_action,no_motion_found
+174.00-180.00 sec,nursery rhyme - Cock Robin,nursery rhyme - Cock Robin,27_10.bvh
+180.00-186.00 sec,salsa dance,unknown_action,no_motion_found
+186.00-192.00 sec,salsa dance,unknown_action,no_motion_found
+192.00-198.00 sec,salsa dance,unknown_action,no_motion_found
+198.00-204.00 sec,salsa dance,unknown_action,no_motion_found
+204.00-210.00 sec,salsa dance,unknown_action,no_motion_found
+210.00-216.00 sec,salsa dance,unknown_action,no_motion_found
