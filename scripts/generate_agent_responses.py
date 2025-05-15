@@ -11,12 +11,13 @@ JSON_LABEL_FILE = os.path.join(BASE_DIR, 'output','standardized_labels.json')
 BVH_DIR         = os.path.join(BASE_DIR, 'data')  
 OUTPUT_FILE     = os.path.join(BASE_DIR, 'output', 'akob_segment_responses.csv')
 
-random.seed(42)
+# random.seed(42)
 
 with open(JSON_LABEL_FILE, 'r', encoding='utf-8') as f:
     std_labels = json.load(f)
 
     library_index = {}
+
 for motion_id, info in std_labels.items():
     desc = info['description']
     library_index.setdefault(desc, []).append(motion_id)
@@ -36,21 +37,24 @@ def sample_motion(description_label: str) -> str:
     return f"{chosen}.bvh"
 
 def main():
-    # 3.1 读取预测的 segment labels
+    # read the prideicted segment labels
     df = pd.read_csv(LABEL_FILE)
 
-    # 3.2 label → response_label（即 description）  
+    # label → response_label（ description）  
     # 注意：get_agent_action 里要返回和 standardized_labels.json 中 description 完全一致的字符串
     df['Response Label'] = df['Dominant Label'].astype(str).apply(lambda x: get_agent_action(x.strip()))
 
-    # 3.3 response_label → selected motion
+    # response_label → selected motion
     df['Selected Motion'] = df['Response Label'].apply(sample_motion)
+    file_list = df['Selected Motion'].tolist()
+    print(file_list)
 
-    # 3.4 保存结果
+    # store csv
     #df.to_csv(OUTPUT_FILE, index=False)
     #print(f"✅ 已生成 agent response 文件：{OUTPUT_FILE}")
-    # 3.4 打印结果（不写 CSV）
-    print(f"{'Time Segment':<15} | {'Dominant Label':<40} | {'Response Label':<30} | {'Selected Motion'}")
+
+    # print
+    print(f"{'Time Segment':<15} | {'Predicted Label':<40} | {'Response Label':<30} | {'Selected Motion'}")
     print("-"*15, "+", "-"*40, "+", "-"*30, "+", "-"*15)
     for _, row in df.iterrows():
         ts = row['Time Segment']
@@ -58,6 +62,17 @@ def main():
         rl = row['Response Label']
         sm = row['Selected Motion']
         print(f"{ts:<15} | {dl:<40} | {rl:<30} | {sm}")
+    
+    
+
+def get_file_list():
+    """
+    返回一个按顺序排列的 Selected Motion 文件名列表（不含路径）。
+    """
+    df = pd.read_csv(LABEL_FILE)
+    df['Response Label'] = df['Dominant Label'].astype(str).apply(lambda x: get_agent_action(x.strip()))
+    df['Selected Motion'] = df['Response Label'].apply(sample_motion)
+    return df['Selected Motion'].tolist()
 
 
 if __name__ == "__main__":
