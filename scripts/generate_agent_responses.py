@@ -4,11 +4,11 @@ import random
 import pandas as pd
 from label_to_action_mapping import get_agent_action
 
-# ─────────────── 配置 ───────────────
+# set
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LABEL_FILE      = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
 JSON_LABEL_FILE = os.path.join(BASE_DIR, 'output','standardized_labels.json')
-BVH_DIR         = os.path.join(BASE_DIR, 'data')  
+BVH_DIR         = os.path.join(BASE_DIR, 'output','processed600_bvh')  
 OUTPUT_FILE     = os.path.join(BASE_DIR, 'output', 'akob_segment_responses.csv')
 
 # random.seed(42)
@@ -19,14 +19,14 @@ with open(JSON_LABEL_FILE, 'r', encoding='utf-8') as f:
     library_index = {}
 
 for motion_id, info in std_labels.items():
-    desc = info['description']
+    desc = info['category']
     library_index.setdefault(desc, []).append(motion_id)
 
 
 # Randomly select a motion from the description
 def sample_motion(description_label: str) -> str:
     """
-    给定一个 description（比如 "playground - climb"），
+    给定一个 category "playground - climb"），
     随机挑一个 motion_id 并加上 .bvh 后缀。
     """
     key = description_label.strip()
@@ -41,7 +41,7 @@ def main():
     df = pd.read_csv(LABEL_FILE)
 
     # label → response_label（ description）  
-    # 注意：get_agent_action 里要返回和 standardized_labels.json 中 description 完全一致的字符串
+    # 注意：get_agent_action 里要返回和 standardized_labels.json 中 category 完全一致的字符串
     df['Response Label'] = df['Dominant Label'].astype(str).apply(lambda x: get_agent_action(x.strip()))
 
     # response_label → selected motion

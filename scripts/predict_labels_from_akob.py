@@ -5,20 +5,20 @@ import pandas as pd
 from bvh import Bvh
 import joblib
 
-# ==== 路径配置 ====
+# ==== path setting ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
 
-# ==== 加载 BVH ====
+#  BVH
 def read_bvh(filepath):
     with open(filepath, 'r') as f:
         bvh = Bvh(f.read())
     return bvh
 
-# ==== 特征提取：按照 joint_channels 顺序提取每帧 96 通道值 ====
+# Feature extraction: According to joint_channels extract 96 channels
 def extract_framewise_features(bvh, joint_channels):
     all_frames = []
 
