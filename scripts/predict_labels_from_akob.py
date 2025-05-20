@@ -8,7 +8,7 @@ import joblib
 # ==== 路径配置 ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
-MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_model.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'lightgbm_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
 
@@ -35,7 +35,7 @@ def extract_framewise_features(bvh, joint_channels):
 
     return np.array(all_frames)  # shape = (num_frames, 96)
 
-# ==== 主流程 ====
+# 
 def main():
     print(f"📂 Loading BVH file: {AKOB_BVH_FILE}")
     bvh = read_bvh(AKOB_BVH_FILE)
