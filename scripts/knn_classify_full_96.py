@@ -49,8 +49,7 @@ print(classification_report(y_test, y_pred))
 #  confusion matrix
 plt.figure(figsize=(12, 8))
 cm = confusion_matrix(y_test, y_pred, labels=np.unique(y))
-sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
-            xticklabels=np.unique(y), yticklabels=np.unique(y))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(y), yticklabels=np.unique(y))
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')

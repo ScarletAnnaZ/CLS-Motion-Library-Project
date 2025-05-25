@@ -54,8 +54,8 @@ _search._fit_and_score = fit_and_score_with_progress
 
 ''' hyperparameter'''
 
-param_dist = {'n_estimators': randint(50,100),
-              'max_depth': randint(10,20)}
+param_dist = {'n_estimators': randint(10,200),
+              'max_depth': randint(10,50)}
 
 # Create a random forest classifier
 rf = RandomForestClassifier()
