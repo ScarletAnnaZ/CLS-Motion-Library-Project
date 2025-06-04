@@ -11,9 +11,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import randint
 
-from tqdm import tqdm
-from sklearn.model_selection import _search
-
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
@@ -26,7 +23,7 @@ df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=[ 'Label']).values
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
-y = df['Label'].values
+y = df['Label'].values 
 
 
 # split train and test 
@@ -36,28 +33,44 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # knn = KNeighborsClassifier(n_neighbors=5)
 # knn.fit(X_train, y_train)
 
+from tqdm import tqdm
+from sklearn.model_selection import cross_val_score
+from itertools import product
+import random
 
-#########
-# 超参数搜索空间 
-param_dist = {
-    'n_neighbors': randint(3, 15),
-    'weights': ['uniform', 'distance'],
-    'p': [1, 2]  # 曼哈顿 vs 欧几里得
-}
+# 随机采样超参数组合
+n_iter = 5
+param_combinations = list(product(
+    [5, 10, 15],                     # n_neighbors
+    ['uniform', 'distance'],        # weights
+    [1, 2]                           # p
+))
 
-# 搜索最佳参数 
-knn = KNeighborsClassifier()
-rand_search = RandomizedSearchCV(knn,
-                                 param_distributions=param_dist,
-                                 n_iter=5,
-                                 cv=5,
-                                 verbose=1,
-                                 n_jobs=-1)
+random.shuffle(param_combinations)
+param_combinations = param_combinations[:n_iter]
 
-rand_search.fit(X_train, y_train)
+best_score = -1
+best_model = None
+best_params = {}
 
-best_knn = rand_search.best_estimator_
-print("🌟 Best hyperparameters:", rand_search.best_params_)
+print(" Searching best hyperparameters with progress:\n")
+
+for n_neighbors, weights, p in tqdm(param_combinations):
+    knn = KNeighborsClassifier(n_neighbors=n_neighbors, weights=weights, p=p)
+    score = cross_val_score(knn, X_train, y_train, cv=3).mean()
+    print(f"Params: n={n_neighbors}, w={weights}, p={p} → CV Score = {score:.4f}")
+    
+    if score > best_score:
+        best_score = score
+        best_knn = knn
+        best_params = {'n_neighbors': n_neighbors, 'weights': weights, 'p': p}
+
+print("\n🌟 Best hyperparameters:", best_params)
+print(f"✅ Best cross-validation accuracy: {best_score:.4f}")
+
+
+# Train best model
+best_knn.fit(X_train, y_train)
 
 
 #！！store the model
@@ -69,15 +82,13 @@ y_pred = best_knn.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"\n✅ Accuracy: {acc:.4f}")
 
-
-
 # predict
 # y_pred = knn.predict(X_test)
 
 # output
 # accuracy = accuracy_score(y_test, y_pred)
 #print(f"✅ Accuracy: {accuracy:.4f}\n")
-print("📊 Classification Report:\n")
+print("Classification Report:\n")
 print(classification_report(y_test, y_pred))
 
 #  confusion matrix
