@@ -5,20 +5,20 @@ import pandas as pd
 from bvh import Bvh
 import joblib
 
-# ==== path setting ====
+# 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
-MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_model.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'random_forest_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
 
-#  BVH
+#  BVH ====
 def read_bvh(filepath):
     with open(filepath, 'r') as f:
         bvh = Bvh(f.read())
     return bvh
 
-# Feature extraction: According to joint_channels extract 96 channels
+# ==== feature extract ：按照 joint_channels 顺序提取每帧 96 通道值 ====
 def extract_framewise_features(bvh, joint_channels):
     all_frames = []
 
@@ -35,7 +35,7 @@ def extract_framewise_features(bvh, joint_channels):
 
     return np.array(all_frames)  # shape = (num_frames, 96)
 
-# ==== 主流程 ====
+# 
 def main():
     print(f"📂 Loading BVH file: {AKOB_BVH_FILE}")
     bvh = read_bvh(AKOB_BVH_FILE)
@@ -48,7 +48,7 @@ def main():
     frame_features = extract_framewise_features(bvh, joint_channels)
     print(f"✅ Extracted frame features: {frame_features.shape}")
 
-    print("✅ Loading trained KNN model...")
+    print("Loading trained KNN model...")
     knn = joblib.load(MODEL_PATH)
 
     print("✍️ Predicting...")
@@ -62,7 +62,7 @@ def main():
     df.to_csv(OUTPUT_CSV, index=False)
     print(f"\n✅ Prediction saved to: {OUTPUT_CSV}")
 
-# ===============================
+
 #  ！！ Aggregating every 600 frames--6s
 # ===============================
     print("\n🔄 Aggregating every 600 frames...")
