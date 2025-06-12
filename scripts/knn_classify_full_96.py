@@ -28,16 +28,18 @@ y = df['Label'].values
 
 # split train and test 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+print(f"📊 Training set: {X_train.shape}, Test set: {X_test.shape}")
 
 # create and train KNN model
-# knn = KNeighborsClassifier(n_neighbors=5)
-# knn.fit(X_train, y_train)
+best_knn = KNeighborsClassifier(n_neighbors=5)
+best_knn.fit(X_train, y_train)
 
 from tqdm import tqdm
 from sklearn.model_selection import cross_val_score
 from itertools import product
 import random
 
+'''
 # 随机采样超参数组合
 n_iter = 5
 param_combinations = list(product(
@@ -68,9 +70,10 @@ for n_neighbors, weights, p in tqdm(param_combinations):
 print("\n🌟 Best hyperparameters:", best_params)
 print(f"✅ Best cross-validation accuracy: {best_score:.4f}")
 
+'''
 
 # Train best model
-best_knn.fit(X_train, y_train)
+# best_knn.fit(X_train, y_train)
 
 
 #！！store the model

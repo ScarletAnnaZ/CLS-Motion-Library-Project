@@ -48,7 +48,7 @@ def main():
     frame_features = extract_framewise_features(bvh, joint_channels)
     print(f"✅ Extracted frame features: {frame_features.shape}")
 
-    print("Loading trained KNN model...")
+    print("Loading trained KNN/RF model...")
     knn = joblib.load(MODEL_PATH)
 
     print("✍️ Predicting...")
@@ -84,7 +84,7 @@ def main():
 
     # csv
     segment_df = pd.DataFrame(segment_labels, columns=["Time Segment", "Dominant Label"])
-    segment_csv = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
+    segment_csv = os.path.join(BASE_DIR, 'output', 'akob_segment_labels_rf.csv')
     segment_df.to_csv(segment_csv, index=False)
     print(f"\n✅ Segment-level label list saved to {segment_csv}")
 

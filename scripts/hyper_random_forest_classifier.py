@@ -28,15 +28,18 @@ scaler = StandardScaler()
 X = scaler.fit_transform(X)
 # joblib.dump(scaler, SCALER_FILE)
 
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 
-# rf = RandomForestClassifier(n_estimators=100, max_depth=20, class_weight='balanced', random_state=42)
-# rf.fit(X_train, y_train)
+# best_rf = RandomForestClassifier(n_estimators=100, max_depth=18, class_weight='balanced', random_state=42)
+
+print("🚀 Start training Random Forest...")
+# best_rf.fit(X_train, y_train)
+
 
 from tqdm import tqdm
 from sklearn.model_selection import _search
+
 
 # 为 cross-validation 加进度条
 tqdm.pandas()
@@ -52,10 +55,11 @@ fit_and_score_with_progress.counter = 0
 _search._fit_and_score = fit_and_score_with_progress
 
 
-''' hyperparameter'''
+'''hyperparameter'''
 
 param_dist = {'n_estimators': randint(10,200),
               'max_depth': randint(10,50)}
+
 
 # Create a random forest classifier
 rf = RandomForestClassifier()
@@ -69,6 +73,7 @@ rand_search = RandomizedSearchCV(rf,
 # Fit the random search object to the data
 rand_search.fit(X_train, y_train)
 
+
 # Create a variable for the best model
 best_rf = rand_search.best_estimator_
 
@@ -76,11 +81,11 @@ best_rf = rand_search.best_estimator_
 print('🌟Best hyperparameters:',  rand_search.best_params_)
 
 
-# change to best parameters-- rf-> best_rf
+# model save
 joblib.dump(best_rf, MODEL_FILE)
 print(f"✅ Random Forest model saved to {MODEL_FILE}")
 
-# also change to best parameters
+# predict
 y_pred = best_rf.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"\n✅ Accuracy: {acc:.4f}")
@@ -97,3 +102,4 @@ plt.xticks(rotation=45)
 plt.yticks(rotation=0)
 plt.tight_layout()
 plt.show()
+

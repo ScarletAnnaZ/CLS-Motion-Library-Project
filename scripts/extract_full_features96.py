@@ -51,7 +51,7 @@ def process_all_files(summary_file, labels_dict, processed_dir, output_file):
         motion_id = os.path.basename(full_motion_id).replace('.bvh', '')
 
         if motion_id in labels_dict:
-            label = labels_dict[motion_id]["category"]
+            label = labels_dict[motion_id]["description"]
             rel_path = os.path.join(processed_dir, full_motion_id)
 
             if os.path.exists(rel_path):
