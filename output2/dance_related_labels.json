@@ -79,6 +79,322 @@
         "description": "dance - attitude/arabesque, jete en tourant, bending back",
         "category": "modern dance"
     },
+    "13_01": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "13_02": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "13_03": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "13_04": {
+        "description": "sit on stepstool, chin in hand",
+        "category": "various everyday behaviors"
+    },
+    "13_05": {
+        "description": "sit on stepstool, hands against chin, fidget, stand up",
+        "category": "various everyday behaviors"
+    },
+    "13_06": {
+        "description": "sit on stepstool, hands against chin, elbow out, stand up",
+        "category": "various everyday behaviors"
+    },
+    "13_07": {
+        "description": "unscrew bottlecap, drink soda",
+        "category": "various everyday behaviors"
+    },
+    "13_08": {
+        "description": "unscrew bottlecap, drink soda, screw on bottlecap",
+        "category": "various everyday behaviors"
+    },
+    "13_09": {
+        "description": "drink soda",
+        "category": "various everyday behaviors"
+    },
+    "13_10": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors"
+    },
+    "13_11": {
+        "description": "forward jump",
+        "category": "various everyday behaviors"
+    },
+    "13_12": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors"
+    },
+    "13_13": {
+        "description": "forward jump",
+        "category": "various everyday behaviors"
+    },
+    "13_14": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "13_15": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "13_16": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "13_17": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "13_18": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "13_19": {
+        "description": "forward jump",
+        "category": "various everyday behaviors"
+    },
+    "13_20": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "13_21": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "13_22": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "13_23": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors"
+    },
+    "13_24": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors"
+    },
+    "13_25": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors"
+    },
+    "13_26": {
+        "description": "direct traffic, wave",
+        "category": "various everyday behaviors"
+    },
+    "13_27": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors"
+    },
+    "13_28": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors"
+    },
+    "13_29": {
+        "description": "jumping jacks, side twists, bend over, squats",
+        "category": "various everyday behaviors"
+    },
+    "13_30": {
+        "description": "jumping jacks, side twists, squats, jog",
+        "category": "various everyday behaviors"
+    },
+    "13_31": {
+        "description": "jumping jacks, side twists, bend over, jog",
+        "category": "various everyday behaviors"
+    },
+    "13_32": {
+        "description": "forward jump",
+        "category": "various everyday behaviors"
+    },
+    "13_33": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors"
+    },
+    "13_34": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors"
+    },
+    "13_35": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "13_36": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "13_37": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "13_38": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "13_39": {
+        "description": "jump",
+        "category": "various everyday behaviors"
+    },
+    "13_40": {
+        "description": "jump",
+        "category": "various everyday behaviors"
+    },
+    "13_41": {
+        "description": "jump",
+        "category": "various everyday behaviors"
+    },
+    "13_42": {
+        "description": "jump",
+        "category": "various everyday behaviors"
+    },
+    "14_01": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "14_02": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "14_03": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "14_04": {
+        "description": "drink soda, screw on bottlecap",
+        "category": "various everyday behaviors"
+    },
+    "14_05": {
+        "description": "unscrew bottlecap, drink soda",
+        "category": "various everyday behaviors"
+    },
+    "14_06": {
+        "description": "jumping jacks, jog, squats, side twists, stretches",
+        "category": "various everyday behaviors"
+    },
+    "14_07": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors"
+    },
+    "14_08": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors"
+    },
+    "14_09": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors"
+    },
+    "14_10": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "14_11": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "14_12": {
+        "description": "wash windows",
+        "category": "various everyday behaviors"
+    },
+    "14_13": {
+        "description": "mop floor",
+        "category": "various everyday behaviors"
+    },
+    "14_14": {
+        "description": "jumping jacks, jog, squats, side twists, stretches",
+        "category": "various everyday behaviors"
+    },
+    "14_15": {
+        "description": "mop floor",
+        "category": "various everyday behaviors"
+    },
+    "14_16": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors"
+    },
+    "14_17": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "14_18": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "14_19": {
+        "description": "laugh",
+        "category": "various everyday behaviors"
+    },
+    "14_20": {
+        "description": "jumping jacks, side twists, reach up, bend over",
+        "category": "various everyday behaviors"
+    },
+    "14_21": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "14_22": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "14_23": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors"
+    },
+    "14_24": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors"
+    },
+    "14_25": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors"
+    },
+    "14_26": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors"
+    },
+    "14_27": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "14_28": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "14_29": {
+        "description": "sit on stepstool, stand up, swing legs",
+        "category": "various everyday behaviors"
+    },
+    "14_30": {
+        "description": "sit on stepstool, ankle on other knee, hand on chin",
+        "category": "various everyday behaviors"
+    },
+    "14_31": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "14_32": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "14_33": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors"
+    },
+    "14_34": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors"
+    },
+    "14_35": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors"
+    },
+    "14_36": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "14_37": {
+        "description": "drink soda",
+        "category": "various everyday behaviors"
+    },
     "15_01": {
         "description": "walk/wander",
         "category": "various everyday behaviors, dance moves"

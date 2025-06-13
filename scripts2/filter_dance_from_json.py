@@ -11,7 +11,7 @@ OUTPUT_JSON = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
 DANCE_KEYWORDS = [
     'dance', 'salsa', 'tango', 'hip hop', 'ballet', 'waltz',
     'chacha', 'rumba', 'jazz', 'jitterbug', 'boogie', 'robot',
-    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin'
+    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin','various everyday behaviors'
 ]
 
 def is_dance_related(text):
