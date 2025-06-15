@@ -8,7 +8,7 @@ import joblib
 # 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
-MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'random_forest_model.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
 
@@ -57,9 +57,9 @@ def main():
         feature_vec = frame_features[i].reshape(1, -1)
         label = knn.predict(feature_vec)[0]
         label_list.append((i, label))  # 或改为 time = i / FPS
-
+ 
     df = pd.DataFrame(label_list, columns=["Frame", "Predicted Label"])
-    df.to_csv(OUTPUT_CSV, index=False)
+    # df.to_csv(OUTPUT_CSV, index=False)
     print(f"\n✅ Prediction saved to: {OUTPUT_CSV}")
 
 

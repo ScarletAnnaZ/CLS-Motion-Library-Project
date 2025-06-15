@@ -6,10 +6,10 @@ from label_to_action_mapping import get_agent_action
 
 # set
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LABEL_FILE      = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
+LABEL_FILE      = os.path.join(BASE_DIR, 'output', 'akob_segment_labels_rf.csv')
 JSON_LABEL_FILE = os.path.join(BASE_DIR, 'output','standardized_labels.json')
 BVH_DIR         = os.path.join(BASE_DIR, 'output','processed600_bvh')  
-OUTPUT_FILE     = os.path.join(BASE_DIR, 'output', 'akob_segment_responses.csv')
+OUTPUT_FILE     = os.path.join(BASE_DIR, 'output', 'segment_responses.csv')
 
 # random.seed(42)
 
@@ -26,8 +26,8 @@ for motion_id, info in std_labels.items():
 # Randomly select a motion from the description
 def sample_motion(description_label: str) -> str:
     """
-    给定一个 category "playground - climb"），
-    随机挑一个 motion_id 并加上 .bvh 后缀。
+    Given a category "playground-climb"),
+    Randomly pick a motion_id and add the.bvh suffix.
     """
     key = description_label.strip()
     candidates = library_index.get(key, [])
@@ -41,7 +41,7 @@ def main():
     df = pd.read_csv(LABEL_FILE)
 
     # label → response_label（ description）  
-    # 注意：get_agent_action 里要返回和 standardized_labels.json 中 category 完全一致的字符串
+    # Return a string that is exactly the same as the category in standardized_labels.json
     df['Response Label'] = df['Dominant Label'].astype(str).apply(lambda x: get_agent_action(x.strip()))
 
     # response_label → selected motion
@@ -51,7 +51,7 @@ def main():
 
     # store csv
     #df.to_csv(OUTPUT_FILE, index=False)
-    #print(f"✅ 已生成 agent response 文件：{OUTPUT_FILE}")
+    #print(f"✅ agent response：{OUTPUT_FILE}")
 
     # print
     print(f"{'Time Segment':<15} | {'Predicted Label':<40} | {'Response Label':<30} | {'Selected Motion'}")
@@ -64,9 +64,9 @@ def main():
         print(f"{ts:<15} | {dl:<40} | {rl:<30} | {sm}")
     
     
-
 def get_file_list():
     """
+    Return a list of Selected Motion file names arranged in sequence
     返回一个按顺序排列的 Selected Motion 文件名列表（不含路径）。
     """
     df = pd.read_csv(LABEL_FILE)

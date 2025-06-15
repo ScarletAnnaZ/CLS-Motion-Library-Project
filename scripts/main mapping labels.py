@@ -4,7 +4,7 @@ import json
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 labels_file = os.path.join(BASE_DIR, 'output','standardized_labels.json')
 
-KEYWORDS = ["dance", "salsa", "nursery rhymes", "running", "ballet", "walking","jumping"]
+KEYWORDS = ["dance", "salsa", "nursery rhymes", "running", "Varying Weird Walks", "walking","various everyday behaviors"]
 
 # 读取 JSON 文件
 with open(labels_file, 'r', encoding='utf-8') as f:

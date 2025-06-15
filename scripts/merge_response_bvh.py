@@ -12,7 +12,7 @@ OUTPUT_BVH  = os.path.join(BASE_DIR, 'output', 'merged_sequence.bvh')
 
 random.seed(42)
 
-# 调用 generate_agent_responses 里的函数拿到 file_list
+#Call the function in generate_agent_responses to obtain file_list
 file_list = get_file_list()
 
 # merge BVH 
@@ -21,7 +21,7 @@ frame_time    = None
 skeleton_text = None
 
 for idx, fname in enumerate(file_list):
-    # 从文件名中提取主体编号，比如 "28_18.bvh" → folder "28"
+    # Extract the body number from the file name, for example: "28_18.bvh" → folder "28"
     subject = fname.split('_')[0]
     bvh_path = os.path.join(BVH_DIR, subject, fname)
 

@@ -2,13 +2,18 @@
 
 LABEL_TO_ACTION = {
     "salsa dance ": "salsa dance",
-     "follow": "move_forward",
+    "follow": "move_forward",
     "dodge": "move_sideways",
     "mirror": "mirror_dancer",
     "highlight": "increase_intensity",
     "idle": "reset_position",
     "turn": "rotate_agent",
-    "jump": "jump_response"
+    "jump": "jump_response",
+    "various everyday behaviors": "various everyday behaviors",
+    "Varying Weird Walks":"Varying Weird Walks",
+    "recreation, nursery rhymes, animal behaviors (pantomime - human subject":"recreation, nursery rhymes, animal behaviors (pantomime - human subject",
+    "salsa":"salsa",
+   
 }
 
 
