@@ -14,10 +14,11 @@ os.makedirs(DANCE_LIBRARY_DIR, exist_ok=True)
 
 # 舞蹈关键词白名单
 DANCE_KEYWORDS = [
-    'dance', 'salsa', 'tango', 'ballet', 'waltz',
+    'dance', 'salsa', 'tango', 'ballet', 'waltz','Dance'
     'chacha', 'rumba', 'jazz', 'jitterbug', 'boogie', 'robot', 'snake','recreation',
-    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin','various everyday behaviors',
-    'Varying Weird Walks','gymnastics','stretch'
+    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin',
+    'various everyday behaviors',
+    'Varying Weird Walks','gymnastics','stretch',
 ]
 
 def is_dance_related(text):

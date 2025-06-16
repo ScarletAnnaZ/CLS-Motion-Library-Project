@@ -7,7 +7,7 @@ from bvh import Bvh
 # 路径配置
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_120')  # 每段 motion 的切片文件夹
-LABELS_PATH = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
+LABELS_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_120.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output2', 'features', 'segment120_features.csv')
 
 # 特征提取：计算每个通道的 mean, std, min, max

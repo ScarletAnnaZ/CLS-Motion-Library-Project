@@ -951,6 +951,10 @@
         "description": "monkey (human subject)",
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject"
     },
+    "42_01": {
+        "description": "stretch - rotate head, shoulders, arms, legs",
+        "category": "stretch"
+    },
     "49_01": {
         "description": "walk",
         "category": "modern dance, gymnastics"
@@ -1050,6 +1054,34 @@
     "55_02": {
         "description": "lambada dance",
         "category": "animal behaviors (pantomime - human subject"
+    },
+    "56_02": {
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_03": {
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_04": {
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_05": {
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_06": {
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_07": {
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
+    },
+    "56_08": {
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch",
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
     },
     "60_01": {
         "description": "salsa dance",
@@ -1215,6 +1247,10 @@
         "description": "quick large steps backwards",
         "category": "avoidance"
     },
+    "77_21": {
+        "description": "stretching",
+        "category": "careful actions"
+    },
     "79_54": {
         "description": "snake",
         "category": "actor everyday activities"
@@ -1222,6 +1258,10 @@
     "80_58": {
         "description": "snake",
         "category": "assorted motions"
+    },
+    "83_22": {
+        "description": "stretching",
+        "category": "steps"
     },
     "85_01": {
         "description": "JumpTwist",
@@ -1282,6 +1322,50 @@
     "85_15": {
         "description": "90TwistsFall",
         "category": "jumps; flips; breakdance"
+    },
+    "86_02": {
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking",
+        "category": "sports and various activities"
+    },
+    "86_03": {
+        "description": "walking, running, jumping, kicking, and stretching",
+        "category": "sports and various activities"
+    },
+    "86_04": {
+        "description": "walking, stretching, punching, chopping, and drinking",
+        "category": "sports and various activities"
+    },
+    "86_06": {
+        "description": "walking, running, kicking, punching, knee kicking, and stretching",
+        "category": "sports and various activities"
+    },
+    "86_07": {
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping",
+        "category": "sports and various activities"
+    },
+    "86_08": {
+        "description": "walking, squats, stretching, kicking, and punching",
+        "category": "sports and various activities"
+    },
+    "86_11": {
+        "description": "walking, stretching, walking and turning",
+        "category": "sports and various activities"
+    },
+    "88_04": {
+        "description": "stretches, cartwheels, flips, spin kicks, spins, and fall",
+        "category": "acrobatics"
+    },
+    "88_09": {
+        "description": "stretch and cartwheel",
+        "category": "acrobatics"
+    },
+    "88_10": {
+        "description": "stretch and spin",
+        "category": "acrobatics"
+    },
+    "88_11": {
+        "description": "stretches and jumps",
+        "category": "acrobatics"
     },
     "90_01": {
         "description": "bkwd summersult",
@@ -1527,9 +1611,29 @@
         "description": "Dance",
         "category": "Pregnant Woman"
     },
+    "111_32": {
+        "description": "Stretch and yawn",
+        "category": "Pregnant Woman"
+    },
     "113_04": {
         "description": "Dance",
         "category": "Post pregnant woman"
+    },
+    "113_23": {
+        "description": "Stretch and yawn",
+        "category": "Post pregnant woman"
+    },
+    "114_10": {
+        "description": "Stretching",
+        "category": "Pregnant Woman"
+    },
+    "114_12": {
+        "description": "Stretching",
+        "category": "Pregnant Woman"
+    },
+    "114_16": {
+        "description": "Sit down and stretch",
+        "category": "Pregnant Woman"
     },
     "120_05": {
         "description": "Mickey Dance",
@@ -1547,8 +1651,28 @@
         "description": "Robot",
         "category": "Various Style Walks"
     },
+    "133_08": {
+        "description": "Stretch Walk",
+        "category": "Baby Styled Walk"
+    },
+    "133_09": {
+        "description": "Stretch Walk",
+        "category": "Baby Styled Walk"
+    },
+    "133_10": {
+        "description": "Stretch Walk",
+        "category": "Baby Styled Walk"
+    },
     "141_12": {
         "description": "Dance, Twist",
+        "category": "General Subject Capture"
+    },
+    "141_13": {
+        "description": "Stretch and Yawn",
+        "category": "General Subject Capture"
+    },
+    "143_30": {
+        "description": "Stretch And Yawn",
         "category": "General Subject Capture"
     },
     "143_34": {

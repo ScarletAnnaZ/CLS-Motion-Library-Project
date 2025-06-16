@@ -43,6 +43,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
     },
+    "86_08_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
     "13_17_seg6.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
@@ -83,9 +87,17 @@
         "category": "Various Style Walks",
         "description": "Mickey Dance"
     },
+    "56_05_seg7.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
     "29_15_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
+    },
+    "56_04_seg7.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
     },
     "14_12_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -207,6 +219,14 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_03_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
+    "86_02_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "29_10_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
@@ -262,6 +282,14 @@
     "29_06_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "86_02_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
+    "86_03_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "30_12_seg19.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -359,6 +387,10 @@
         "category": "various everyday behaviors",
         "description": "wash windows"
     },
+    "86_11_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
     "29_15_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
@@ -367,9 +399,17 @@
         "category": "Post pregnant woman",
         "description": "Dance"
     },
+    "56_04_seg6.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "29_14_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
+    },
+    "56_05_seg6.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "28_04_seg9.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -410,6 +450,10 @@
     "13_17_seg7.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
+    },
+    "86_08_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "28_01_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -519,6 +563,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
     },
+    "86_08_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
     "94_10_seg4.bvh": {
         "category": "indian dance",
         "description": "Unknown"
@@ -531,9 +579,17 @@
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
     },
+    "56_04_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "29_15_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
+    },
+    "56_05_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "14_13_seg3.bvh": {
         "category": "various everyday behaviors",
@@ -659,6 +715,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_02_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "29_10_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
@@ -666,6 +726,10 @@
     "13_34_seg1.bvh": {
         "category": "various everyday behaviors",
         "description": "climb ladder"
+    },
+    "86_03_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "30_11_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -727,6 +791,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_03_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "13_35_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "climb 3 steps"
@@ -734,6 +802,10 @@
     "29_10_seg10.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "86_02_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "30_10_seg9.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -867,6 +939,14 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "56_05_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
+    "56_04_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "14_26_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
@@ -874,6 +954,10 @@
     "14_27_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on high stool, stand up"
+    },
+    "86_08_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "28_01_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -983,9 +1067,17 @@
         "category": "various everyday behaviors",
         "description": "laugh"
     },
+    "88_11_seg0.bvh": {
+        "category": "acrobatics",
+        "description": "stretches and jumps"
+    },
     "28_01_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
+    },
+    "86_08_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "32_12_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1003,9 +1095,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
     },
+    "56_04_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "29_14_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
+    },
+    "56_05_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "14_26_seg4.bvh": {
         "category": "various everyday behaviors",
@@ -1059,6 +1159,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "77_21_seg1.bvh": {
+        "category": "careful actions",
+        "description": "stretching"
+    },
     "14_31_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, stand up"
@@ -1111,6 +1215,10 @@
         "category": "various everyday behaviors",
         "description": "unscrew bottlecap, drink soda"
     },
+    "86_06_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "143_35_seg0.bvh": {
         "category": "General Subject Capture",
         "description": "Macarena Dance"
@@ -1118,6 +1226,10 @@
     "14_04_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "drink soda, screw on bottlecap"
+    },
+    "86_07_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
     },
     "93_02_seg1.bvh": {
         "category": "Charleston Dance",
@@ -1131,13 +1243,25 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_02_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "85_05_seg1.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "HandStandKicks"
     },
+    "86_03_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "85_04_seg1.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "FancyFootWork"
+    },
+    "86_07_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
     },
     "32_06_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1211,13 +1335,25 @@
         "category": "jumps; flips; breakdance",
         "description": "FancyFootWork"
     },
+    "86_03_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "32_06_seg10.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_07_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "85_05_seg0.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "HandStandKicks"
+    },
+    "86_02_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "30_12_seg23.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1235,9 +1371,17 @@
         "category": "Charleston Dance",
         "description": "rangeOfMotion"
     },
+    "86_07_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "28_04_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "86_06_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "27_06_seg1.bvh": {
         "category": "recreation, nursery rhymes",
@@ -1278,6 +1422,10 @@
     "30_09_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "77_21_seg0.bvh": {
+        "category": "careful actions",
+        "description": "stretching"
     },
     "15_05_seg13.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -1335,6 +1483,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
     },
+    "56_05_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
     "55_02_seg2.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "lambada dance"
@@ -1342,6 +1494,10 @@
     "29_15_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
+    },
+    "56_04_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
     },
     "29_10_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1358,6 +1514,14 @@
     "94_10_seg0.bvh": {
         "category": "indian dance",
         "description": "Unknown"
+    },
+    "86_08_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
+    "88_11_seg1.bvh": {
+        "category": "acrobatics",
+        "description": "stretches and jumps"
     },
     "94_11_seg0.bvh": {
         "category": "indian dance",
@@ -1439,6 +1603,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "lean forward, reach for"
     },
+    "86_08_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
     "94_10_seg2.bvh": {
         "category": "indian dance",
         "description": "Unknown"
@@ -1455,6 +1623,10 @@
         "category": "indian dance",
         "description": "Unknown"
     },
+    "56_06_seg10.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
     "32_12_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -1463,6 +1635,10 @@
         "category": "animal behaviors (pantomime - human subject",
         "description": "lambada dance"
     },
+    "56_05_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
     "49_03_seg1.bvh": {
         "category": "modern dance, gymnastics",
         "description": "jump up and down, hop on one foot"
@@ -1470,6 +1646,10 @@
     "29_14_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
+    },
+    "56_04_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
     },
     "49_02_seg1.bvh": {
         "category": "modern dance, gymnastics",
@@ -1571,9 +1751,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_07_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "32_06_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "86_03_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "85_04_seg2.bvh": {
         "category": "jumps; flips; breakdance",
@@ -1594,6 +1782,10 @@
     "30_12_seg21.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "86_02_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "32_07_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1663,6 +1855,10 @@
         "category": "various everyday behaviors",
         "description": "boxing"
     },
+    "86_02_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "30_12_seg20.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -1675,6 +1871,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_07_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "61_12_seg1.bvh": {
         "category": "salsa",
         "description": "salsa dance"
@@ -1682,6 +1882,10 @@
     "85_04_seg3.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "FancyFootWork"
+    },
+    "86_03_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "28_04_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -1771,6 +1975,10 @@
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
     },
+    "56_04_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "29_15_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
@@ -1778,6 +1986,10 @@
     "49_02_seg0.bvh": {
         "category": "modern dance, gymnastics",
         "description": "jump up and down, hop on one foot"
+    },
+    "56_05_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "55_02_seg1.bvh": {
         "category": "animal behaviors (pantomime - human subject",
@@ -1806,6 +2018,14 @@
     "13_17_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
+    },
+    "86_08_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
+    "88_11_seg2.bvh": {
+        "category": "acrobatics",
+        "description": "stretches and jumps"
     },
     "13_16_seg2.bvh": {
         "category": "various everyday behaviors",
@@ -1863,6 +2083,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "56_03_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
     "29_13_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -1874,6 +2098,10 @@
     "30_10_seg10.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "56_02_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall"
     },
     "15_04_seg28.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -1931,6 +2159,10 @@
         "category": "various everyday behaviors",
         "description": "sweep floor"
     },
+    "86_06_seg15.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "31_09_seg14.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -1975,6 +2207,10 @@
         "category": "jumps; flips; breakdance",
         "description": "UpRightSequence"
     },
+    "86_04_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "31_06_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - \"I'm a little teapot...\""
@@ -2014,6 +2250,10 @@
     "14_36_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, stand up"
+    },
+    "56_08_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
     },
     "29_19_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2055,6 +2295,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "cat (human subject)"
     },
+    "56_08_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
+    },
     "29_19_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "fish (human subject)"
@@ -2079,6 +2323,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "climb, step over, sit on, stand on stepstool"
     },
+    "56_07_seg14.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "28_11_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "bear (human subject)"
@@ -2090,6 +2338,10 @@
     "31_06_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - \"I'm a little teapot...\""
+    },
+    "86_04_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "85_03_seg0.bvh": {
         "category": "jumps; flips; breakdance",
@@ -2143,6 +2395,10 @@
         "category": "various everyday behaviors",
         "description": "sweep floor"
     },
+    "86_06_seg14.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "13_24_seg3.bvh": {
         "category": "various everyday behaviors",
         "description": "sweep floor"
@@ -2191,6 +2447,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
     },
+    "56_02_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall"
+    },
     "31_09_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -2199,9 +2459,21 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "56_03_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
+    "56_02_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall"
+    },
     "29_13_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "56_03_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
     },
     "29_12_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2275,6 +2547,14 @@
         "category": "indian dance",
         "description": "Unknown"
     },
+    "56_06_seg8.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
+    "56_07_seg8.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "61_15_seg0.bvh": {
         "category": "salsa",
         "description": "salsa dance"
@@ -2282,6 +2562,10 @@
     "85_03_seg2.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "UpRightSequence"
+    },
+    "86_04_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "31_10_seg14.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2331,6 +2615,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "fish (human subject)"
     },
+    "56_08_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
+    },
     "90_02_seg0.bvh": {
         "category": "cartwheels; acrobatics; dances",
         "description": "cartwheel"
@@ -2367,9 +2655,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "fish (human subject)"
     },
+    "56_08_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
+    },
     "29_18_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "cat (human subject)"
+    },
+    "42_01_seg0.bvh": {
+        "category": "stretch",
+        "description": "stretch - rotate head, shoulders, arms, legs"
     },
     "14_36_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -2419,6 +2715,10 @@
         "category": "salsa",
         "description": "salsa dance"
     },
+    "86_04_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "85_03_seg3.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "UpRightSequence"
@@ -2426,6 +2726,14 @@
     "61_15_seg1.bvh": {
         "category": "salsa",
         "description": "salsa dance"
+    },
+    "56_07_seg9.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
+    "56_06_seg9.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
     },
     "13_10_seg2.bvh": {
         "category": "various everyday behaviors",
@@ -2507,9 +2815,17 @@
         "category": "various everyday behaviors",
         "description": "jump up to grab, reach for, tiptoe"
     },
+    "56_03_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
     "29_12_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "56_02_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall"
     },
     "30_10_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2562,6 +2878,10 @@
     "29_12_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "56_03_seg7.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
     },
     "14_15_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -2619,6 +2939,10 @@
         "category": "various everyday behaviors",
         "description": "sweep floor"
     },
+    "86_06_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "32_22_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "monkey (human subject)"
@@ -2635,6 +2959,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_04_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "31_10_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -2646,6 +2974,10 @@
     "94_01_seg1.bvh": {
         "category": "indian dance",
         "description": "Unknown"
+    },
+    "56_07_seg13.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
     },
     "13_07_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -2699,9 +3031,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "cat (human subject)"
     },
+    "56_08_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
+    },
     "60_01_seg2.bvh": {
         "category": "salsa",
         "description": "salsa dance"
+    },
+    "56_08_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch"
     },
     "29_18_seg7.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2751,6 +3091,10 @@
         "category": "various everyday behaviors",
         "description": "unscrew bottlecap, drink soda"
     },
+    "56_07_seg12.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "94_01_seg0.bvh": {
         "category": "indian dance",
         "description": "Unknown"
@@ -2766,6 +3110,10 @@
     "31_10_seg10.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "86_04_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "28_07_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2790,6 +3138,10 @@
     "61_02_seg2.bvh": {
         "category": "salsa",
         "description": "salsa dance"
+    },
+    "86_06_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "13_24_seg5.bvh": {
         "category": "various everyday behaviors",
@@ -2859,6 +3211,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "56_03_seg6.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
     "28_08_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
@@ -2919,9 +3275,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "mouse (human subject)"
     },
+    "56_03_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
     "29_12_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "56_02_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall"
     },
     "29_13_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -2967,6 +3331,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
     },
+    "133_10_seg1.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
+    },
     "31_11_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
@@ -2974,6 +3342,10 @@
     "32_16_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "cat (human subject)"
+    },
+    "86_06_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "61_02_seg0.bvh": {
         "category": "salsa",
@@ -3023,6 +3395,10 @@
         "category": "jumps; flips; breakdance",
         "description": "UpRightSequence"
     },
+    "86_04_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "61_09_seg3.bvh": {
         "category": "salsa",
         "description": "salsa dance"
@@ -3042,6 +3418,10 @@
     "94_01_seg2.bvh": {
         "category": "indian dance",
         "description": "Unknown"
+    },
+    "56_07_seg10.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
     },
     "15_02_seg16.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -3151,6 +3531,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "climb, step over, sit on, stand on stepstool"
     },
+    "56_07_seg11.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "94_01_seg3.bvh": {
         "category": "indian dance",
         "description": "Unknown"
@@ -3170,6 +3554,10 @@
     "13_33_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "climb ladder"
+    },
+    "86_04_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "31_10_seg13.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3203,6 +3591,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_06_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "85_14_seg3.bvh": {
         "category": "jumps; flips; breakdance",
         "description": "BreakSequencewithFlips"
@@ -3218,6 +3610,10 @@
     "31_11_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
+    },
+    "133_10_seg0.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
     },
     "32_17_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3254,6 +3650,10 @@
     "29_12_seg22.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "56_03_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
     },
     "29_12_seg7.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3302,6 +3702,10 @@
     "31_08_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "56_03_seg8.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
     },
     "31_09_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3387,9 +3791,17 @@
         "category": "animal behaviors (pantomime - human subject",
         "description": "dance, whirl"
     },
+    "56_06_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
     "29_16_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "bear (human subject)"
+    },
+    "56_07_seg2.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
     },
     "27_05_seg3.bvh": {
         "category": "recreation, nursery rhymes",
@@ -3439,6 +3851,10 @@
         "category": "various everyday behaviors",
         "description": "sit on stepstool, stand up"
     },
+    "86_03_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "13_03_seg5.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on high stool, stand up"
@@ -3487,6 +3903,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew"
     },
+    "83_22_seg1.bvh": {
+        "category": "steps",
+        "description": "stretching"
+    },
     "15_13_seg4.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "boxing"
@@ -3527,6 +3947,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "83_22_seg0.bvh": {
+        "category": "steps",
+        "description": "stretching"
+    },
     "14_02_seg8.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
@@ -3566,6 +3990,10 @@
     "14_32_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, stand up"
+    },
+    "86_03_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "14_33_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -3619,9 +4047,17 @@
         "category": "modern dance, gymnastics",
         "description": "walk"
     },
+    "56_07_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "29_17_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dog (human subject)"
+    },
+    "56_06_seg3.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
     },
     "55_01_seg1.bvh": {
         "category": "animal behaviors (pantomime - human subject",
@@ -3691,6 +4127,10 @@
         "category": "various everyday behaviors",
         "description": "wash windows"
     },
+    "56_03_seg9.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip"
+    },
     "15_04_seg34.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
@@ -3755,6 +4195,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "133_08_seg1.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
+    },
     "15_04_seg36.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
@@ -3770,6 +4214,10 @@
     "29_13_seg9.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "133_09_seg1.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
     },
     "31_08_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3790,6 +4238,10 @@
     "32_13_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
+    },
+    "86_08_seg14.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "15_05_seg1.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -3831,6 +4283,10 @@
         "category": "various everyday behaviors",
         "description": "wash windows"
     },
+    "56_07_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "29_16_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "bear (human subject)"
@@ -3838,6 +4294,10 @@
     "80_58_seg2.bvh": {
         "category": "assorted motions",
         "description": "snake"
+    },
+    "56_06_seg1.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
     },
     "29_17_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -3879,6 +4339,10 @@
         "category": "various everyday behaviors",
         "description": "jump up to grab, reach for, tiptoe"
     },
+    "86_04_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "15_02_seg31.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "climb, step over, sit on, stand on stepstool"
@@ -3886,6 +4350,10 @@
     "15_02_seg25.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "climb, step over, sit on, stand on stepstool"
+    },
+    "86_03_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "14_32_seg2.bvh": {
         "category": "various everyday behaviors",
@@ -3935,6 +4403,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "83_22_seg2.bvh": {
+        "category": "steps",
+        "description": "stretching"
+    },
     "31_03_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -3946,6 +4418,10 @@
     "15_12_seg7.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew"
+    },
+    "83_22_seg3.bvh": {
+        "category": "steps",
+        "description": "stretching"
     },
     "15_12_seg6.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -4011,6 +4487,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Tyrannosaurus rex (human subject)"
     },
+    "86_03_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "90_33_seg0.bvh": {
         "category": "cartwheels; acrobatics; dances",
         "description": "arm up wide leg roll"
@@ -4034,6 +4514,10 @@
     "15_02_seg30.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "climb, step over, sit on, stand on stepstool"
+    },
+    "86_04_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "14_07_seg1.bvh": {
         "category": "various everyday behaviors",
@@ -4071,6 +4555,10 @@
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
     },
+    "56_06_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
     "55_01_seg2.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "dance, whirl"
@@ -4078,6 +4566,10 @@
     "29_17_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dog (human subject)"
+    },
+    "56_07_seg0.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
     },
     "29_16_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4123,6 +4615,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "133_09_seg0.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
+    },
     "29_13_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -4138,6 +4634,10 @@
     "31_20_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "snake (human subject)"
+    },
+    "133_08_seg0.bvh": {
+        "category": "Baby Styled Walk",
+        "description": "Stretch Walk"
     },
     "31_09_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4223,6 +4723,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
     },
+    "86_08_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
     "15_04_seg4.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
@@ -4303,9 +4807,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "bear (human subject)"
     },
+    "56_07_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "29_17_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dog (human subject)"
+    },
+    "56_06_seg4.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
     },
     "31_10_seg18.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4403,6 +4915,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "83_22_seg7.bvh": {
+        "category": "steps",
+        "description": "stretching"
+    },
     "28_08_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
@@ -4446,6 +4962,10 @@
     "31_03_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "83_22_seg6.bvh": {
+        "category": "steps",
+        "description": "stretching"
     },
     "32_10_seg11.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4543,6 +5063,14 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "cat (human subject)"
     },
+    "56_06_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
+    "56_07_seg5.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "14_25_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
@@ -4602,6 +5130,10 @@
     "15_04_seg5.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
+    },
+    "86_08_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "15_05_seg5.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -4727,6 +5259,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing"
     },
+    "86_08_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
     "13_21_seg4.bvh": {
         "category": "various everyday behaviors",
         "description": "wash windows"
@@ -4767,9 +5303,17 @@
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
     },
+    "56_06_seg7.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
+    },
     "29_17_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dog (human subject)"
+    },
+    "56_07_seg7.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
     },
     "29_16_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4839,6 +5383,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "chicken (human subject)"
     },
+    "88_04_seg0.bvh": {
+        "category": "acrobatics",
+        "description": "stretches, cartwheels, flips, spin kicks, spins, and fall"
+    },
     "13_03_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on high stool, stand up"
@@ -4858,6 +5406,10 @@
     "13_02_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on high stool, stand up"
+    },
+    "83_22_seg4.bvh": {
+        "category": "steps",
+        "description": "stretching"
     },
     "15_12_seg1.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -4883,6 +5435,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "56_04_seg10.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "28_09_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "prairie dog (human subject)"
@@ -4894,6 +5450,10 @@
     "15_13_seg0.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "boxing"
+    },
+    "83_22_seg5.bvh": {
+        "category": "steps",
+        "description": "stretching"
     },
     "32_10_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4910,6 +5470,10 @@
     "94_04_seg0.bvh": {
         "category": "indian dance",
         "description": "Unknown"
+    },
+    "88_04_seg1.bvh": {
+        "category": "acrobatics",
+        "description": "stretches, cartwheels, flips, spin kicks, spins, and fall"
     },
     "28_14_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -4971,9 +5535,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dog (human subject)"
     },
+    "56_07_seg6.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt"
+    },
     "29_16_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "bear (human subject)"
+    },
+    "56_06_seg6.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound"
     },
     "29_17_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -5034,6 +5606,10 @@
     "61_07_seg2.bvh": {
         "category": "salsa",
         "description": "salsa dance"
+    },
+    "86_08_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
     },
     "15_05_seg6.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -5163,6 +5739,10 @@
         "category": "various everyday behaviors",
         "description": "climb 3 steps"
     },
+    "86_02_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "60_09_seg2.bvh": {
         "category": "salsa",
         "description": "salsa dance"
@@ -5235,6 +5815,10 @@
         "category": "indian dance",
         "description": "Unknown"
     },
+    "86_11_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
     "28_18_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
@@ -5291,6 +5875,10 @@
         "category": "indian dance",
         "description": "Unknown"
     },
+    "86_04_seg14.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "13_04_seg3.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, chin in hand"
@@ -5307,6 +5895,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_06_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "13_31_seg1.bvh": {
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, bend over, jog"
@@ -5314,6 +5906,10 @@
     "54_19_seg2.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "squirrel - robotic like motion (human subject)"
+    },
+    "86_07_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
     },
     "13_30_seg1.bvh": {
         "category": "various everyday behaviors",
@@ -5431,9 +6027,17 @@
         "category": "cartwheels; acrobatics; dances",
         "description": "sequesnce"
     },
+    "86_07_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "13_30_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, squats, jog"
+    },
+    "86_06_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "54_19_seg3.bvh": {
         "category": "animal behaviors (pantomime - human subject",
@@ -5466,6 +6070,10 @@
     "111_05_seg0.bvh": {
         "category": "Pregnant Woman",
         "description": "Dance"
+    },
+    "86_04_seg15.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "94_02_seg3.bvh": {
         "category": "indian dance",
@@ -5522,6 +6130,10 @@
     "28_18_seg5.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
+    },
+    "86_11_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
     },
     "94_09_seg0.bvh": {
         "category": "indian dance",
@@ -5619,6 +6231,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "86_02_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "14_23_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "climb 3 steps"
@@ -5666,6 +6282,10 @@
     "32_10_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "86_02_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "30_06_seg12.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -5751,6 +6371,10 @@
         "category": "indian dance",
         "description": "Unknown"
     },
+    "86_11_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
     "13_27_seg4.bvh": {
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
@@ -5831,6 +6455,10 @@
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, squats, jog"
     },
+    "86_07_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "13_31_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, bend over, jog"
@@ -5838,6 +6466,10 @@
     "54_19_seg1.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "squirrel - robotic like motion (human subject)"
+    },
+    "86_06_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "30_11_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -5931,9 +6563,17 @@
         "category": "various everyday behaviors",
         "description": "boxing"
     },
+    "86_06_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "13_30_seg3.bvh": {
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, squats, jog"
+    },
+    "86_07_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
     },
     "15_14_seg0.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -6023,6 +6663,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
     },
+    "86_11_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
     "32_11_seg14.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -6102,6 +6746,10 @@
     "90_22_seg0.bvh": {
         "category": "cartwheels; acrobatics; dances",
         "description": "straight walk"
+    },
+    "86_02_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "90_23_seg0.bvh": {
         "category": "cartwheels; acrobatics; dances",
@@ -6199,6 +6847,14 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
     },
+    "86_08_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
+    "86_02_seg15.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "13_12_seg3.bvh": {
         "category": "various everyday behaviors",
         "description": "jump up to grab, reach for, tiptoe"
@@ -6215,13 +6871,25 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
     },
+    "56_05_seg8.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
     "32_08_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - \"I'm a little teapot...\""
     },
+    "56_04_seg8.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
+    },
     "32_09_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "86_11_seg6.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
     },
     "28_18_seg2.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6262,6 +6930,10 @@
     "94_02_seg4.bvh": {
         "category": "indian dance",
         "description": "Unknown"
+    },
+    "86_04_seg12.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "13_04_seg5.bvh": {
         "category": "various everyday behaviors",
@@ -6314,6 +6986,14 @@
     "15_09_seg1.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "walk/wander"
+    },
+    "86_07_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
+    "86_06_seg0.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "13_18_seg0.bvh": {
         "category": "various everyday behaviors",
@@ -6435,6 +7115,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
     },
+    "86_06_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
     "54_19_seg5.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "squirrel - robotic like motion (human subject)"
@@ -6442,6 +7126,10 @@
     "13_18_seg1.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
+    },
+    "86_07_seg1.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
     },
     "15_05_seg26.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -6483,6 +7171,10 @@
         "category": "various everyday behaviors",
         "description": "sit on stepstool, chin in hand"
     },
+    "86_04_seg13.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "28_13_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "snake (human subject)"
@@ -6519,9 +7211,17 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
     },
+    "86_11_seg7.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
     "13_26_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "direct traffic, wave"
+    },
+    "56_04_seg9.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump"
     },
     "32_09_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6530,6 +7230,10 @@
     "32_20_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Tyrannosaurus rex (human subject)"
+    },
+    "56_05_seg9.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "28_04_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6542,6 +7246,14 @@
     "13_12_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "jump up to grab, reach for, tiptoe"
+    },
+    "86_08_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, squats, stretching, kicking, and punching"
+    },
+    "86_02_seg14.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "29_11_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6651,6 +7363,10 @@
         "category": "recreation, nursery rhymes",
         "description": "Alaskan vacation"
     },
+    "86_02_seg16.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "05_14_seg0.bvh": {
         "category": "modern dance",
         "description": "dance - retire derriere, attitude/arabesque"
@@ -6691,6 +7407,10 @@
         "category": "various everyday behaviors",
         "description": "direct traffic, wave, point"
     },
+    "56_05_seg11.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
+    },
     "28_19_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "dinosaur (human subject)"
@@ -6702,6 +7422,10 @@
     "13_26_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "direct traffic, wave"
+    },
+    "86_11_seg5.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
     },
     "28_18_seg1.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6751,6 +7475,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "snake (human subject)"
     },
+    "86_04_seg11.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
+    },
     "13_04_seg6.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, chin in hand"
@@ -6791,6 +7519,14 @@
         "category": "various everyday behaviors",
         "description": "jumping jacks, side twists, bend over, jog"
     },
+    "86_06_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
+    },
+    "86_07_seg3.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "31_05_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
@@ -6823,6 +7559,10 @@
         "category": "recreation, nursery rhymes",
         "description": "basketball signals"
     },
+    "86_02_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
+    },
     "14_01_seg0.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
@@ -6834,6 +7574,10 @@
     "30_11_seg7.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
+    },
+    "86_03_seg9.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
     },
     "120_21_seg3.bvh": {
         "category": "Various Style Walks",
@@ -6863,6 +7607,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
     },
+    "86_03_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, jumping, kicking, and stretching"
+    },
     "30_11_seg6.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "Alaskan vacation"
@@ -6878,6 +7626,10 @@
     "14_01_seg1.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
+    },
+    "86_02_seg8.bvh": {
+        "category": "sports and various activities",
+        "description": "walk, squats, run, stretch, jumps, punches, and drinking"
     },
     "27_02_seg1.bvh": {
         "category": "recreation, nursery rhymes",
@@ -6911,6 +7663,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "basketball signals"
     },
+    "86_07_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, swinging arms, stretching, jumping on one leg, and jumping"
+    },
     "54_19_seg6.bvh": {
         "category": "animal behaviors (pantomime - human subject",
         "description": "squirrel - robotic like motion (human subject)"
@@ -6918,6 +7674,10 @@
     "13_18_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "boxing"
+    },
+    "86_06_seg2.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
     "85_01_seg0.bvh": {
         "category": "jumps; flips; breakdance",
@@ -6950,6 +7710,10 @@
     "28_13_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "snake (human subject)"
+    },
+    "86_04_seg10.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, punching, chopping, and drinking"
     },
     "28_12_seg3.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
@@ -6994,6 +7758,14 @@
     "28_18_seg0.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "elephant (human subject)"
+    },
+    "86_11_seg4.bvh": {
+        "category": "sports and various activities",
+        "description": "walking, stretching, walking and turning"
+    },
+    "56_05_seg10.bvh": {
+        "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
+        "description": "vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch"
     },
     "13_27_seg3.bvh": {
         "category": "various everyday behaviors",
