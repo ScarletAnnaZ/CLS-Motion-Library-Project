@@ -5,7 +5,8 @@ from bvh import Bvh
 import json
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
+#BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
+BVH_FILE = os.path.join(BASE_DIR, 'data','01','01_01.bvh')
 output_path = "/Users/anzhai/motion-library-project/output/features/extract_joint_channels.json"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
