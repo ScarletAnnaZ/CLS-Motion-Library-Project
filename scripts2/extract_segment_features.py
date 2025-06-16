@@ -15,7 +15,7 @@ def extract_statistics_from_segment(bvh_path):
     with open(bvh_path, 'r') as f:
         mocap = Bvh(f.read())
     
-    frames = np.array(mocap.frames, dtype=np.float32)  # shape: [T, C]
+    frames = np.array(mocap.frames, dtype=np.float32)  # shape: [T, C] 
     if frames.shape[0] == 0:
         raise ValueError(f"No frames in file: {bvh_path}")
     
