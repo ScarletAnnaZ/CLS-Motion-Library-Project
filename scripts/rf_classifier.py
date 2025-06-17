@@ -9,16 +9,16 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# ==== 路径设置 ====
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FEATURE_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_features.csv')
+FEATURE_FILE = os.path.join(BASE_DIR, 'output2', 'features_240.csv')
 MODEL_DIR = os.path.join(BASE_DIR, 'output', 'models')
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-MODEL_FILE = os.path.join(MODEL_DIR, 'rf_model.pkl')
+MODEL_FILE = os.path.join(MODEL_DIR, 'rf_240model.pkl')
 # SCALER_FILE = os.path.join(MODEL_DIR, 'scaler_rf.pkl')
 
-# ==== 读取数据 ====
+# read data
 df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=["Label"]).values
 y = df["Label"].values
