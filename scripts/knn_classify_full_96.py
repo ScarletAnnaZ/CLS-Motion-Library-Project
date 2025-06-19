@@ -78,7 +78,7 @@ print(f"✅ Best cross-validation accuracy: {best_score:.4f}")
 
 #！！store the model
 joblib.dump(best_knn, os.path.join(MODEL_DIR, 'knn_seg120.pkl'))
-print(f"✅ KNN model saved to {MODEL_DIR}/knn_model.pkl")
+print(f"✅ KNN model saved to knn_model.pkl")
 
 # ========== 评估 ==========
 y_pred = best_knn.predict(X_test)
