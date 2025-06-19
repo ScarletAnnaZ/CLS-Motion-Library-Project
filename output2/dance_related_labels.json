@@ -1055,6 +1055,10 @@
         "description": "lambada dance",
         "category": "animal behaviors (pantomime - human subject"
     },
+    "55_20": {
+        "description": "hippo ballerina (human subject)",
+        "category": "animal behaviors (pantomime - human subject"
+    },
     "56_02": {
         "description": "vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall",
         "category": "vignettes - locomotion, upper-body motions (focus: motion transitions"
@@ -1606,34 +1610,6 @@
     "94_16": {
         "description": "Unknown",
         "category": "indian dance"
-    },
-    "111_05": {
-        "description": "Dance",
-        "category": "Pregnant Woman"
-    },
-    "111_32": {
-        "description": "Stretch and yawn",
-        "category": "Pregnant Woman"
-    },
-    "113_04": {
-        "description": "Dance",
-        "category": "Post pregnant woman"
-    },
-    "113_23": {
-        "description": "Stretch and yawn",
-        "category": "Post pregnant woman"
-    },
-    "114_10": {
-        "description": "Stretching",
-        "category": "Pregnant Woman"
-    },
-    "114_12": {
-        "description": "Stretching",
-        "category": "Pregnant Woman"
-    },
-    "114_16": {
-        "description": "Sit down and stretch",
-        "category": "Pregnant Woman"
     },
     "120_05": {
         "description": "Mickey Dance",

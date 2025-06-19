@@ -187,6 +187,10 @@
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
     },
+    "55_20_seg1.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
+    },
     "60_07_seg2.bvh": {
         "category": "salsa",
         "description": "salsa dance"
@@ -307,6 +311,10 @@
         "category": "various everyday behaviors, dance moves",
         "description": "wash windows, paint figure eights; hand signals"
     },
+    "55_20_seg0.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
+    },
     "49_21_seg1.bvh": {
         "category": "modern dance, gymnastics",
         "description": "acrobatics - spin/twirl, hang on ropes"
@@ -394,10 +402,6 @@
     "29_15_seg4.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "whale (human subject)"
-    },
-    "113_04_seg0.bvh": {
-        "category": "Post pregnant woman",
-        "description": "Dance"
     },
     "56_04_seg6.bvh": {
         "category": "vignettes - locomotion, upper-body motions (focus: motion transitions",
@@ -691,6 +695,10 @@
         "category": "modern dance, gymnastics",
         "description": "acrobatics - spin/twirl, hang on ropes"
     },
+    "55_20_seg2.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
+    },
     "15_10_seg2.bvh": {
         "category": "various everyday behaviors, dance moves",
         "description": "sit on high stool, stand up"
@@ -838,6 +846,10 @@
     "60_07_seg0.bvh": {
         "category": "salsa",
         "description": "salsa dance"
+    },
+    "55_20_seg3.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
     },
     "60_06_seg0.bvh": {
         "category": "salsa",
@@ -1383,6 +1395,10 @@
         "category": "sports and various activities",
         "description": "walking, running, kicking, punching, knee kicking, and stretching"
     },
+    "55_20_seg6.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
+    },
     "27_06_seg1.bvh": {
         "category": "recreation, nursery rhymes",
         "description": "basketball signals"
@@ -1735,6 +1751,10 @@
         "category": "recreation, nursery rhymes",
         "description": "basketball signals"
     },
+    "55_20_seg4.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
+    },
     "49_09_seg2.bvh": {
         "category": "modern dance, gymnastics",
         "description": "dance - arms held high, side arabesque"
@@ -1898,6 +1918,10 @@
     "31_04_seg8.bvh": {
         "category": "recreation, nursery rhymes, animal behaviors (pantomime - human subject",
         "description": "nursery rhyme - Cock Robin"
+    },
+    "55_20_seg5.bvh": {
+        "category": "animal behaviors (pantomime - human subject",
+        "description": "hippo ballerina (human subject)"
     },
     "15_05_seg10.bvh": {
         "category": "various everyday behaviors, dance moves",
@@ -6066,10 +6090,6 @@
     "13_04_seg2.bvh": {
         "category": "various everyday behaviors",
         "description": "sit on stepstool, chin in hand"
-    },
-    "111_05_seg0.bvh": {
-        "category": "Pregnant Woman",
-        "description": "Dance"
     },
     "86_04_seg15.bvh": {
         "category": "sports and various activities",

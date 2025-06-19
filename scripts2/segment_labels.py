@@ -4,9 +4,9 @@ import re
 
 # ==== 路径设置 ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_60')
+SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_240')
 BASE_LABEL_PATH = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
-OUTPUT_LABEL_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_60.json')
+OUTPUT_LABEL_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_240.json')
 
 # 读取基础 label（原始 motion_id 的标签）
 with open(BASE_LABEL_PATH, 'r', encoding='utf-8') as f:

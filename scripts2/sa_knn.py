@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import time
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -13,6 +14,7 @@ FEATURE_DIR = os.path.join(BASE_DIR, 'output2') # change the local path
 window_sizes = [10, 30, 60, 100, 120, 240, 600]
 results = []
 
+
 for win in window_sizes:
     file_path = os.path.join(FEATURE_DIR, f'features_{win}.csv')
     if not os.path.exists(file_path):
@@ -20,6 +22,14 @@ for win in window_sizes:
         continue
     
     df = pd.read_csv(file_path)
+    # 统一采样数量（比如最多使用 1000 个 segment）
+    SAMPLE_SIZE = 1000
+    if len(df) > SAMPLE_SIZE:
+       df = df.sample(n=SAMPLE_SIZE, random_state=42)
+    else:
+       print(f"⚠️ Window {win}: 数据量只有 {len(df)}，不足 {SAMPLE_SIZE}，保留全部")
+
+    
     if 'Label' not in df.columns:
         print(f"❌ Lack Label: {file_path}")
         continue
@@ -48,19 +58,21 @@ for win in window_sizes:
     knn.fit(X_train, y_train)
     y_pred = knn.predict(X_test)
 
+    
     acc = accuracy_score(y_test, y_pred)
-    results.append((win, acc))
+    results.append((win, acc ))
     print(f"✅ Window {win}: Accuracy = {acc:.4f}")
+    print ()
 
-# 转为 DataFrame 并可视化
+# Convert to a DataFrame and visualize
 if results:
     results_df = pd.DataFrame(results, columns=['window_size', 'accuracy']).sort_values('window_size')
 
-    # 打印表格
+    # print
     print("\n📊 Results of sensitivity analysis:")
     print(results_df)
 
-    # 可视化
+    # visualize
     plt.figure(figsize=(10, 6))
     plt.plot(results_df['window_size'], results_df['accuracy'], marker='o')
     plt.title('KNN Accuracy vs Frame Size')
