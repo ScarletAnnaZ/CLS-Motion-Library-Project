@@ -1,4 +1,6 @@
 output/features/full_features.csv
 output/models/*.pkl
 output/models/*.pkl
+output2/features_*.csv
+
 *.bvh

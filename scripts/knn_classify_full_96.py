@@ -13,7 +13,7 @@ from scipy.stats import randint
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FEATURE_FILE = os.path.join(BASE_DIR, 'output2', 'features_120.csv')
+FEATURE_FILE = os.path.join(BASE_DIR, 'output2', 'features_10.csv')
 MODEL_DIR = os.path.join(BASE_DIR, 'output', 'models')
 os.makedirs(MODEL_DIR, exist_ok=True)
 
@@ -77,7 +77,7 @@ print(f"✅ Best cross-validation accuracy: {best_score:.4f}")
 
 
 #！！store the model
-joblib.dump(best_knn, os.path.join(MODEL_DIR, 'knn_seg120.pkl'))
+joblib.dump(best_knn, os.path.join(MODEL_DIR, 'knn_seg10.pkl'))
 print(f"✅ KNN model saved to knn_model.pkl")
 
 # ========== 评估 ==========
