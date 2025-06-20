@@ -2,6 +2,7 @@ import os
 import json
 import pandas as pd
 import shutil
+import re
 
 # path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,14 +17,24 @@ os.makedirs(DANCE_LIBRARY_DIR, exist_ok=True)
 DANCE_KEYWORDS = [
     'dance', 'salsa', 'tango', 'ballet', 'waltz','Dance','hippo','yoga',
     'chacha', 'rumba', 'jazz', 'jitterbug', 'boogie', 'robot', 'snake','recreation',
-    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin',
-    'various everyday behaviors',
-    'Varying Weird Walks','gymnastics','stretch',
+    'freestyle', 'club', 'disco', 'nursery rhyme - Cock Robin', 
+    'various everyday behaviors', 
+    'Varying Weird Walks','gymnastics'
+    
 ]
+dance_patterns = [re.compile(rf'\b{re.escape(kw)}\b') for kw in DANCE_KEYWORDS]
+
+#def is_dance_related(text):
+ #   text = text.lower()
+  #  return any(keyword in text for keyword in DANCE_KEYWORDS)
 
 def is_dance_related(text):
     text = text.lower()
-    return any(keyword in text for keyword in DANCE_KEYWORDS)
+    for pattern in dance_patterns:
+        if pattern.search(text):
+            # print(f"✅ Keyword matched: '{pattern.pattern}' in '{text}'") # to check how to select the data
+            return True
+    return False
 
 def filter_dance_labels(input_path, output_json):
     with open(input_path, 'r', encoding='utf-8') as f:

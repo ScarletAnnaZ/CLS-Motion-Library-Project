@@ -8,7 +8,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_DIR = os.path.join(BASE_DIR, 'output2') # change the local path
 window_sizes = [10, 30, 60, 100, 120, 240, 600]
@@ -24,10 +23,16 @@ for win in window_sizes:
     df = pd.read_csv(file_path)
     # 统一采样数量（比如最多使用 1000 个 segment）
     SAMPLE_SIZE = 1000
+       # 分层采样确保每个类别按比例保留
     if len(df) > SAMPLE_SIZE:
-       df = df.sample(n=SAMPLE_SIZE, random_state=42)
+        try:
+            df_sampled, _ = train_test_split(df, train_size=SAMPLE_SIZE, stratify=df['Label'], random_state=42)
+            df = df_sampled
+        except ValueError:
+            print(f"⚠️ Window {win}: 某些标签样本过少，无法 stratify（如某类样本数 < 2），使用随机采样替代")
+            df = df.sample(n=SAMPLE_SIZE, random_state=42)
     else:
-       print(f"⚠️ Window {win}: 数据量只有 {len(df)}，不足 {SAMPLE_SIZE}，保留全部")
+        print(f"⚠️ Window {win}: 数据量只有 {len(df)}，不足 {SAMPLE_SIZE}，保留全部")
 
     
     if 'Label' not in df.columns:
