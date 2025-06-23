@@ -7,7 +7,7 @@ from bvh import Bvh
 # ===== 路径配置 =====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BVH_DIR = os.path.join(BASE_DIR, 'output2', 'segments_600')
-LABELS_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_240.json')
+LABELS_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_600.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output2', 'features_600.csv')
 
 # ===== 特征提取函数 =====

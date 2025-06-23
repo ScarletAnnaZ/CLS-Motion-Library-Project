@@ -6,8 +6,8 @@ INPUT_JSON = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
 OUTPUT_JSON = os.path.join(BASE_DIR, 'output2', 'dance_labels.json')
 
 CATEGORY_MAPPING = {
-    "recreation, nursery rhymes, animal behaviors (pantomime - human subject":"animal pantomime",
-    "various everyday behaviors": "various everyday behaviors ",
+    "recreation, nursery rhymes, animal behaviors (pantomime - human subject":"pantomime",
+    "various everyday behaviors": "various everyday behaviors",
     "salsa": "salsa", 
     "modern dance, gymnastics": "modern_dance",
     "modern dance": "modern_dance",
@@ -16,14 +16,13 @@ CATEGORY_MAPPING = {
     "recreation, nursery rhymes": "nursery rhymes motion",
     "Charleston Dance": "Charleston Dance",
     "Various Style Walks": "general movement",
-    "animal behaviors (pantomime - human subject": "animal pantomime",
+    "animal behaviors (pantomime - human subject": "animal behavior",
     "General Subject Capture": "general movement",
     "cartwheels; acrobatics; dances":"modern_dance",
     "human interaction - at play, formations (2 subjects - subject A": "interaction",
     "human interaction - at play, formations (2 subjects - subject B": "interaction",
     "human interaction and communication (2 subjects - subject A": "interaction",
     "human interaction and communication (2 subjects - subject B": "interaction",
-    "actor everyday activities": "moden dance",
     "actor everyday activities": "various everyday behaviors",
     "assorted motions":"general movement"
 }

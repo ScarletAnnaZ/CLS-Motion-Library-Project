@@ -7,11 +7,12 @@ import pandas as pd
 
 # ==== 配置路径 ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh') # 替换为实际输入
-MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf.pkl')  # 替换为训练好的模型路径
+#INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
+INPUT_BVH = os.path.join(BASE_DIR, 'data', '93', '93_02.bvh')  # 替换为实际输入
+MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf_600model.pkl')  # 替换为训练好的模型路径
 CHANNEL_LIST_PATH = os.path.join(BASE_DIR, "output", "features", "extract_joint_channels.json")
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output2', 'predicted_segments.csv')
-SEGMENT_LENGTH = 120
+SEGMENT_LENGTH = 600
 
 def read_bvh(filepath):
     with open(filepath, "r") as f:
@@ -74,7 +75,7 @@ def main():
     # 提取特征
     segment_features = extract_segment_features(frames, indices)
     if not segment_features:
-        print("❌ No valid segments found.")
+        print("❌ The input frames are less than SEGMENT_LENGTH. No valid segments found.")
         return
 
     # 加载模型
