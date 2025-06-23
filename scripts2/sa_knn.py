@@ -22,7 +22,7 @@ for win in window_sizes:
     
     df = pd.read_csv(file_path)
     # 统一采样数量（比如最多使用 1000 个 segment）
-    SAMPLE_SIZE = 1000
+    SAMPLE_SIZE = 1600
        # 分层采样确保每个类别按比例保留
     if len(df) > SAMPLE_SIZE:
         try:

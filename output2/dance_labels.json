@@ -1,0 +1,1314 @@
+{
+    "05_01": {
+        "description": "walk",
+        "category": "modern_dance"
+    },
+    "05_02": {
+        "description": "dance - expressive arms, pirouette",
+        "category": "modern_dance"
+    },
+    "05_03": {
+        "description": "dance - sideways arabesque, turn step, folding arms",
+        "category": "modern_dance"
+    },
+    "05_04": {
+        "description": "dance - sideways arabesque, folding arms, bending back",
+        "category": "modern_dance"
+    },
+    "05_05": {
+        "description": "dance - quasi-cou-de-pied, raised leg above hip-height, jete en tourant",
+        "category": "modern_dance"
+    },
+    "05_06": {
+        "description": "dance - cartwheel-like start, pirouettes, jete",
+        "category": "modern_dance"
+    },
+    "05_07": {
+        "description": "dance - small jetes, attitude/arabesque, shifted-axis pirouette, turn",
+        "category": "modern_dance"
+    },
+    "05_08": {
+        "description": "dance - rond de jambe in the air, jete, turn",
+        "category": "modern_dance"
+    },
+    "05_09": {
+        "description": "dance - glissade devant, glissade derriere, attitude/arabesque",
+        "category": "modern_dance"
+    },
+    "05_10": {
+        "description": "dance - glissade devant, glissade derriere, attitude/arabesque",
+        "category": "modern_dance"
+    },
+    "05_11": {
+        "description": "dance - sideways steps, pirouette",
+        "category": "modern_dance"
+    },
+    "05_12": {
+        "description": "dance - arms held high, pointe tendue a terre, upper body rotation",
+        "category": "modern_dance"
+    },
+    "05_13": {
+        "description": "dance - small jetes, pirouette",
+        "category": "modern_dance"
+    },
+    "05_14": {
+        "description": "dance - retire derriere, attitude/arabesque",
+        "category": "modern_dance"
+    },
+    "05_15": {
+        "description": "dance - retire derriere, attitude/arabesque",
+        "category": "modern_dance"
+    },
+    "05_16": {
+        "description": "dance - coupe dessous, jete en tourant",
+        "category": "modern_dance"
+    },
+    "05_17": {
+        "description": "dance - coupe dessous, grand jete en tourant",
+        "category": "modern_dance"
+    },
+    "05_18": {
+        "description": "dance - attitude/arabesque, jete en tourant, bending back",
+        "category": "modern_dance"
+    },
+    "05_19": {
+        "description": "dance - attitude/arabesque, jete en tourant, bending back",
+        "category": "modern_dance"
+    },
+    "05_20": {
+        "description": "dance - attitude/arabesque, jete en tourant, bending back",
+        "category": "modern_dance"
+    },
+    "13_01": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "13_02": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "13_03": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "13_04": {
+        "description": "sit on stepstool, chin in hand",
+        "category": "various everyday behaviors "
+    },
+    "13_05": {
+        "description": "sit on stepstool, hands against chin, fidget, stand up",
+        "category": "various everyday behaviors "
+    },
+    "13_06": {
+        "description": "sit on stepstool, hands against chin, elbow out, stand up",
+        "category": "various everyday behaviors "
+    },
+    "13_07": {
+        "description": "unscrew bottlecap, drink soda",
+        "category": "various everyday behaviors "
+    },
+    "13_08": {
+        "description": "unscrew bottlecap, drink soda, screw on bottlecap",
+        "category": "various everyday behaviors "
+    },
+    "13_09": {
+        "description": "drink soda",
+        "category": "various everyday behaviors "
+    },
+    "13_10": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors "
+    },
+    "13_11": {
+        "description": "forward jump",
+        "category": "various everyday behaviors "
+    },
+    "13_12": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors "
+    },
+    "13_13": {
+        "description": "forward jump",
+        "category": "various everyday behaviors "
+    },
+    "13_14": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "13_15": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "13_16": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "13_17": {
+        "description": "boxing",
+        "category": "various everyday behaviors "
+    },
+    "13_18": {
+        "description": "boxing",
+        "category": "various everyday behaviors "
+    },
+    "13_19": {
+        "description": "forward jump",
+        "category": "various everyday behaviors "
+    },
+    "13_20": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "13_21": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "13_22": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "13_23": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors "
+    },
+    "13_24": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors "
+    },
+    "13_25": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors "
+    },
+    "13_26": {
+        "description": "direct traffic, wave",
+        "category": "various everyday behaviors "
+    },
+    "13_27": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors "
+    },
+    "13_28": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors "
+    },
+    "13_29": {
+        "description": "jumping jacks, side twists, bend over, squats",
+        "category": "various everyday behaviors "
+    },
+    "13_30": {
+        "description": "jumping jacks, side twists, squats, jog",
+        "category": "various everyday behaviors "
+    },
+    "13_31": {
+        "description": "jumping jacks, side twists, bend over, jog",
+        "category": "various everyday behaviors "
+    },
+    "13_32": {
+        "description": "forward jump",
+        "category": "various everyday behaviors "
+    },
+    "13_33": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors "
+    },
+    "13_34": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors "
+    },
+    "13_35": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "13_36": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "13_37": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "13_38": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "13_39": {
+        "description": "jump",
+        "category": "various everyday behaviors "
+    },
+    "13_40": {
+        "description": "jump",
+        "category": "various everyday behaviors "
+    },
+    "13_41": {
+        "description": "jump",
+        "category": "various everyday behaviors "
+    },
+    "13_42": {
+        "description": "jump",
+        "category": "various everyday behaviors "
+    },
+    "14_01": {
+        "description": "boxing",
+        "category": "various everyday behaviors "
+    },
+    "14_02": {
+        "description": "boxing",
+        "category": "various everyday behaviors "
+    },
+    "14_03": {
+        "description": "boxing",
+        "category": "various everyday behaviors "
+    },
+    "14_04": {
+        "description": "drink soda, screw on bottlecap",
+        "category": "various everyday behaviors "
+    },
+    "14_05": {
+        "description": "unscrew bottlecap, drink soda",
+        "category": "various everyday behaviors "
+    },
+    "14_06": {
+        "description": "jumping jacks, jog, squats, side twists, stretches",
+        "category": "various everyday behaviors "
+    },
+    "14_07": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors "
+    },
+    "14_08": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors "
+    },
+    "14_09": {
+        "description": "jump up to grab, reach for, tiptoe",
+        "category": "various everyday behaviors "
+    },
+    "14_10": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "14_11": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "14_12": {
+        "description": "wash windows",
+        "category": "various everyday behaviors "
+    },
+    "14_13": {
+        "description": "mop floor",
+        "category": "various everyday behaviors "
+    },
+    "14_14": {
+        "description": "jumping jacks, jog, squats, side twists, stretches",
+        "category": "various everyday behaviors "
+    },
+    "14_15": {
+        "description": "mop floor",
+        "category": "various everyday behaviors "
+    },
+    "14_16": {
+        "description": "sweep floor",
+        "category": "various everyday behaviors "
+    },
+    "14_17": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "14_18": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "14_19": {
+        "description": "laugh",
+        "category": "various everyday behaviors "
+    },
+    "14_20": {
+        "description": "jumping jacks, side twists, reach up, bend over",
+        "category": "various everyday behaviors "
+    },
+    "14_21": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "14_22": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "14_23": {
+        "description": "climb 3 steps",
+        "category": "various everyday behaviors "
+    },
+    "14_24": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors "
+    },
+    "14_25": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors "
+    },
+    "14_26": {
+        "description": "direct traffic, wave, point",
+        "category": "various everyday behaviors "
+    },
+    "14_27": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "14_28": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "14_29": {
+        "description": "sit on stepstool, stand up, swing legs",
+        "category": "various everyday behaviors "
+    },
+    "14_30": {
+        "description": "sit on stepstool, ankle on other knee, hand on chin",
+        "category": "various everyday behaviors "
+    },
+    "14_31": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "14_32": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "14_33": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors "
+    },
+    "14_34": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors "
+    },
+    "14_35": {
+        "description": "climb ladder",
+        "category": "various everyday behaviors "
+    },
+    "14_36": {
+        "description": "sit on stepstool, stand up",
+        "category": "various everyday behaviors "
+    },
+    "14_37": {
+        "description": "drink soda",
+        "category": "various everyday behaviors "
+    },
+    "15_01": {
+        "description": "walk/wander",
+        "category": "various everyday behaviors"
+    },
+    "15_02": {
+        "description": "climb, step over, sit on, stand on stepstool",
+        "category": "various everyday behaviors"
+    },
+    "15_03": {
+        "description": "walk/wander",
+        "category": "various everyday behaviors"
+    },
+    "15_04": {
+        "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing",
+        "category": "various everyday behaviors"
+    },
+    "15_05": {
+        "description": "wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing",
+        "category": "various everyday behaviors"
+    },
+    "15_06": {
+        "description": "lean forward, reach for",
+        "category": "various everyday behaviors"
+    },
+    "15_07": {
+        "description": "lean forward, tiptoe, reach for",
+        "category": "various everyday behaviors"
+    },
+    "15_08": {
+        "description": "hand signals - horizontally revolve forearms",
+        "category": "various everyday behaviors"
+    },
+    "15_09": {
+        "description": "walk/wander",
+        "category": "various everyday behaviors"
+    },
+    "15_10": {
+        "description": "sit on high stool, stand up",
+        "category": "various everyday behaviors"
+    },
+    "15_11": {
+        "description": "wash windows, paint figure eights; hand signals",
+        "category": "various everyday behaviors"
+    },
+    "15_12": {
+        "description": "wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew",
+        "category": "various everyday behaviors"
+    },
+    "15_13": {
+        "description": "boxing",
+        "category": "various everyday behaviors"
+    },
+    "15_14": {
+        "description": "walk/wander",
+        "category": "various everyday behaviors"
+    },
+    "18_15": {
+        "description": "chicken dance (2 subjects - subject A)",
+        "category": "interaction"
+    },
+    "19_15": {
+        "description": "chicken dance (2 subjects - subject B)",
+        "category": "interaction"
+    },
+    "20_01": {
+        "description": "chicken dance (2 subjects - subject A)",
+        "category": "interaction"
+    },
+    "21_01": {
+        "description": "chicken dance (2 subjects - subject B)",
+        "category": "interaction"
+    },
+    "27_01": {
+        "description": "walk",
+        "category": "nursery rhymes motion"
+    },
+    "27_02": {
+        "description": "basketball signals",
+        "category": "nursery rhymes motion"
+    },
+    "27_03": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "nursery rhymes motion"
+    },
+    "27_04": {
+        "description": "Alaskan vacation",
+        "category": "nursery rhymes motion"
+    },
+    "27_05": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "nursery rhymes motion"
+    },
+    "27_06": {
+        "description": "basketball signals",
+        "category": "nursery rhymes motion"
+    },
+    "27_07": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "nursery rhymes motion"
+    },
+    "27_08": {
+        "description": "Alaskan vacation",
+        "category": "nursery rhymes motion"
+    },
+    "27_09": {
+        "description": "Alaskan vacation",
+        "category": "nursery rhymes motion"
+    },
+    "27_10": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "nursery rhymes motion"
+    },
+    "27_11": {
+        "description": "prairie dog (human subject)",
+        "category": "nursery rhymes motion"
+    },
+    "28_01": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "28_02": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "28_03": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "28_04": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "28_05": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "28_06": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "28_07": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "28_08": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "28_09": {
+        "description": "prairie dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_10": {
+        "description": "whale (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_11": {
+        "description": "bear (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_12": {
+        "description": "dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_13": {
+        "description": "snake (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_14": {
+        "description": "chicken (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_15": {
+        "description": "monkey (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_16": {
+        "description": "mouse (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_17": {
+        "description": "cat (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_18": {
+        "description": "elephant (human subject)",
+        "category": "animal pantomime"
+    },
+    "28_19": {
+        "description": "dinosaur (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_01": {
+        "description": "walk",
+        "category": "animal pantomime"
+    },
+    "29_02": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "29_03": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "29_04": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_05": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_06": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "29_07": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "29_08": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "29_09": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_10": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "29_11": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_12": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_13": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "29_14": {
+        "description": "prairie dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_15": {
+        "description": "whale (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_16": {
+        "description": "bear (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_17": {
+        "description": "dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_18": {
+        "description": "cat (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_19": {
+        "description": "fish (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_20": {
+        "description": "elephant (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_21": {
+        "description": "mouse (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_22": {
+        "description": "chicken (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_23": {
+        "description": "dinosaur (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_24": {
+        "description": "snake (human subject)",
+        "category": "animal pantomime"
+    },
+    "29_25": {
+        "description": "monkey (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_01": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "30_02": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "30_03": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "30_04": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "30_05": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "30_06": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "30_07": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "30_08": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "30_09": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "30_10": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "30_11": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "30_12": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "30_13": {
+        "description": "prairie dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_14": {
+        "description": "whale (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_15": {
+        "description": "bear (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_16": {
+        "description": "dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_17": {
+        "description": "cat (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_18": {
+        "description": "elephant (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_19": {
+        "description": "mouse (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_20": {
+        "description": "chicken (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_21": {
+        "description": "snake (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_22": {
+        "description": "Tyrannosaurus rex (human subject)",
+        "category": "animal pantomime"
+    },
+    "30_23": {
+        "description": "monkey (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_01": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "31_02": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "31_03": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "31_04": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "31_05": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "31_06": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "31_07": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "31_08": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "31_09": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "31_10": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "31_11": {
+        "description": "prairie dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_12": {
+        "description": "whale (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_13": {
+        "description": "bear (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_14": {
+        "description": "dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_15": {
+        "description": "cat (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_16": {
+        "description": "elephant (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_17": {
+        "description": "Tyrannosaurus rex (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_18": {
+        "description": "mouse (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_19": {
+        "description": "chicken (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_20": {
+        "description": "snake (human subject)",
+        "category": "animal pantomime"
+    },
+    "31_21": {
+        "description": "monkey (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_01": {
+        "description": "walk",
+        "category": "animal pantomime"
+    },
+    "32_02": {
+        "description": "walk",
+        "category": "animal pantomime"
+    },
+    "32_03": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "32_04": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "32_05": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "32_06": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "32_07": {
+        "description": "basketball signals",
+        "category": "animal pantomime"
+    },
+    "32_08": {
+        "description": "nursery rhyme - \"I'm a little teapot...\"",
+        "category": "animal pantomime"
+    },
+    "32_09": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "32_10": {
+        "description": "nursery rhyme - Cock Robin",
+        "category": "animal pantomime"
+    },
+    "32_11": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "32_12": {
+        "description": "Alaskan vacation",
+        "category": "animal pantomime"
+    },
+    "32_13": {
+        "description": "prairie dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_14": {
+        "description": "bear (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_15": {
+        "description": "dog (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_16": {
+        "description": "cat (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_17": {
+        "description": "elephant (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_18": {
+        "description": "mouse (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_19": {
+        "description": "chicken (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_20": {
+        "description": "Tyrannosaurus rex (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_21": {
+        "description": "snake (human subject)",
+        "category": "animal pantomime"
+    },
+    "32_22": {
+        "description": "monkey (human subject)",
+        "category": "animal pantomime"
+    },
+    "49_01": {
+        "description": "walk",
+        "category": "modern_dance"
+    },
+    "49_02": {
+        "description": "jump up and down, hop on one foot",
+        "category": "modern_dance"
+    },
+    "49_03": {
+        "description": "jump up and down, hop on one foot",
+        "category": "modern_dance"
+    },
+    "49_04": {
+        "description": "run, leap",
+        "category": "modern_dance"
+    },
+    "49_05": {
+        "description": "run, leap",
+        "category": "modern_dance"
+    },
+    "49_06": {
+        "description": "cartwheel",
+        "category": "modern_dance"
+    },
+    "49_07": {
+        "description": "cartwheel",
+        "category": "modern_dance"
+    },
+    "49_08": {
+        "description": "cartwheels",
+        "category": "modern_dance"
+    },
+    "49_09": {
+        "description": "dance - arms held high, side arabesque",
+        "category": "modern_dance"
+    },
+    "49_10": {
+        "description": "dance - fold in from side arabesque, curl inwards",
+        "category": "modern_dance"
+    },
+    "49_11": {
+        "description": "dance - fold in from side arabesque, curl inwards",
+        "category": "modern_dance"
+    },
+    "49_12": {
+        "description": "dance - lean forward, bring back leg forward, arching arms",
+        "category": "modern_dance"
+    },
+    "49_13": {
+        "description": "dance - fold in from side arabesque, curl inwards",
+        "category": "modern_dance"
+    },
+    "49_14": {
+        "description": "dance - lean forward, bring back leg forward, arching arms",
+        "category": "modern_dance"
+    },
+    "49_15": {
+        "description": "static dance pose - folded in, head lowered, leg bent",
+        "category": "modern_dance"
+    },
+    "49_16": {
+        "description": "dance - fold in from side arabesque, curl inwards",
+        "category": "modern_dance"
+    },
+    "49_17": {
+        "description": "dance - lean forward, bring back leg forward, arching arms",
+        "category": "modern_dance"
+    },
+    "49_18": {
+        "description": "balance on one leg, outstretched arms",
+        "category": "modern_dance"
+    },
+    "49_19": {
+        "description": "balance on one leg, outstretched arms",
+        "category": "modern_dance"
+    },
+    "49_20": {
+        "description": "balance on one leg, outstretched arms",
+        "category": "modern_dance"
+    },
+    "49_21": {
+        "description": "acrobatics - spin/twirl, hang on ropes",
+        "category": "modern_dance"
+    },
+    "49_22": {
+        "description": "dance - lean back on bent leg, balance, bend elbow by ear",
+        "category": "modern_dance"
+    },
+    "55_01": {
+        "description": "dance, whirl",
+        "category": "animal pantomime"
+    },
+    "55_02": {
+        "description": "lambada dance",
+        "category": "animal pantomime"
+    },
+    "55_20": {
+        "description": "hippo ballerina (human subject)",
+        "category": "animal pantomime"
+    },
+    "60_01": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_02": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_03": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_04": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_05": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_06": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_07": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_08": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_09": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_10": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_11": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_12": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_13": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_14": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "60_15": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_01": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_02": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_03": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_04": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_05": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_06": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_07": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_08": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_09": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_10": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_11": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_12": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_13": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_14": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "61_15": {
+        "description": "salsa dance",
+        "category": "salsa"
+    },
+    "79_54": {
+        "description": "snake",
+        "category": "various everyday behaviors"
+    },
+    "80_58": {
+        "description": "snake",
+        "category": "general movement"
+    },
+    "90_30": {
+        "description": "russian dance",
+        "category": "modern_dance"
+    },
+    "90_31": {
+        "description": "russian dance",
+        "category": "modern_dance"
+    },
+    "93_01": {
+        "description": "Motorcycle Pose",
+        "category": "Charleston Dance"
+    },
+    "93_02": {
+        "description": "rangeOfMotion",
+        "category": "Charleston Dance"
+    },
+    "93_03": {
+        "description": "charleston_01",
+        "category": "Charleston Dance"
+    },
+    "93_04": {
+        "description": "charleston_side_by_side_female",
+        "category": "Charleston Dance"
+    },
+    "93_05": {
+        "description": "charleston_side_by_side_male",
+        "category": "Charleston Dance"
+    },
+    "93_06": {
+        "description": "lindyHop2",
+        "category": "Charleston Dance"
+    },
+    "93_07": {
+        "description": "Casual Walk",
+        "category": "Charleston Dance"
+    },
+    "93_08": {
+        "description": "xtra fancY charleston",
+        "category": "Charleston Dance"
+    },
+    "94_01": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_02": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_03": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_04": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_05": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_06": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_07": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_08": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_09": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_10": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_11": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_12": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_13": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_14": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_15": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "94_16": {
+        "description": "Unknown",
+        "category": "indian_dance"
+    },
+    "120_05": {
+        "description": "Mickey Dance",
+        "category": "general movement"
+    },
+    "120_06": {
+        "description": "Mickey Dance",
+        "category": "general movement"
+    },
+    "120_07": {
+        "description": "Mickey Dance",
+        "category": "general movement"
+    },
+    "120_21": {
+        "description": "Robot",
+        "category": "general movement"
+    },
+    "141_12": {
+        "description": "Dance, Twist",
+        "category": "general movement"
+    },
+    "143_34": {
+        "description": "Chicken Dance",
+        "category": "general movement"
+    },
+    "143_35": {
+        "description": "Macarena Dance",
+        "category": "general movement"
+    }
+}

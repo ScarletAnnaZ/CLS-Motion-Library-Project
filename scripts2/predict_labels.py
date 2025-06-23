@@ -8,7 +8,7 @@ import pandas as pd
 # ==== 配置路径 ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh') # 替换为实际输入
-MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_seg10.pkl')  # 替换为训练好的模型路径
+MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf.pkl')  # 替换为训练好的模型路径
 CHANNEL_LIST_PATH = os.path.join(BASE_DIR, "output", "features", "extract_joint_channels.json")
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output2', 'predicted_segments.csv')
 SEGMENT_LENGTH = 120

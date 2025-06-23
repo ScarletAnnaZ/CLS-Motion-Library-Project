@@ -2,7 +2,7 @@ import os
 from bvh import Bvh
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INPUT_DIR = os.path.join(BASE_DIR, 'data_clean', 'dance_motion_library')
+INPUT_DIR = os.path.join(BASE_DIR, 'data_clean')
 OUTPUT_BASE_DIR = os.path.join(BASE_DIR, 'output2')
 SEGMENT_SIZES = [10, 30, 60, 100, 120,240,600]
 

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # ==== 设置路径（根据需要修改） ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LABEL_FILE = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
+LABEL_FILE = os.path.join(BASE_DIR, 'output2', 'segment_labels_240.json')
 
 # ==== 读取 JSON 文件 ====
 with open(LABEL_FILE, 'r', encoding='utf-8') as f:

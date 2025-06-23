@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_JSON = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_JSON = os.path.join(BASE_DIR, 'output2', 'dance_related_labels.json')
 MOTION_DATA_DIR = os.path.join(BASE_DIR, 'data') 
-DANCE_LIBRARY_DIR = os.path.join(BASE_DIR, 'data_clean', 'dance_motion_library')
+DANCE_LIBRARY_DIR = os.path.join(BASE_DIR, 'data_clean')
 os.makedirs(DANCE_LIBRARY_DIR, exist_ok=True)
 
 
