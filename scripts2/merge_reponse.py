@@ -18,18 +18,19 @@ frame_time = None
 skeleton_text = None
 
 for idx, fname in enumerate(file_list):
-    if not isinstance(fname, str) or fname.strip() == "" or fname == "no_motion_found":
-        print(f"⚠️ Skipping: {fname}")
-        continue
-
-    # ❌ 不再添加 .bvh 后缀，文件名已经完整
-    motion_path = os.path.join(SEGMENT_DIR, fname)
-
-    if not os.path.exists(motion_path):
-        print(f"⚠️ Skipping missing file: {motion_path}")
+    if fname == "no_motion_found":
+        print(f"⚠️ Skipping: no_motion_found")
         continue
 
     try:
+        motion_id = fname.replace(".bvh", "")
+        
+        motion_path = os.path.join(SEGMENT_DIR, fname)
+
+        if not os.path.exists(motion_path):
+            print(f"⚠️ Skipping missing file: {motion_path}")
+            continue
+
         with open(motion_path, 'r', encoding='utf-8') as f:
             raw = f.read()
         bvh = Bvh(raw)

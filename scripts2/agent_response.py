@@ -29,7 +29,7 @@ def sample_motion_by_strategy(predicted_label: str) -> str:
     candidates = label_to_motion_ids.get(response_label, [])
     if not candidates:
         return "no_motion_found"
-    return f"{random.choice(candidates)}.bvh"
+    return f"{random.choice(candidates)}"
 
 
 #
