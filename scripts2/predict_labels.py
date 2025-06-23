@@ -88,8 +88,17 @@ def main():
     print("✅ Predicted Labels:")
     for i, label in enumerate(preds):
         print(f"Segment {i}: {label}")
-
+    
+     # 保存预测结果为 CSV
+    df = pd.DataFrame({
+    "Time Segment": [f"segment_{i}" for i in range(len(preds))],
+    "Predicted Label": preds
+})
+    df.to_csv(OUTPUT_CSV, index=False)
+    print(f"✅ Prediction results saved to: {OUTPUT_CSV}")
 
 
 if __name__ == "__main__":
     main()
+    # 保存预测结果为 CSV
+
