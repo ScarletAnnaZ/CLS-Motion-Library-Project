@@ -13,7 +13,7 @@ DANCE_LIBRARY_DIR = os.path.join(BASE_DIR, 'data_clean')
 os.makedirs(DANCE_LIBRARY_DIR, exist_ok=True)
 
 
-# 舞蹈关键词白名单
+# White list of dance keywords
 DANCE_KEYWORDS = [
     'dance', 'salsa', 'tango', 'ballet', 'waltz','Dance','hippo','yoga',
     'chacha', 'rumba', 'jazz', 'jitterbug', 'boogie', 'robot', 'snake','recreation',

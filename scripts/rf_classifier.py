@@ -11,11 +11,11 @@ import seaborn as sns
 
 # path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FEATURE_FILE = os.path.join(BASE_DIR, 'output2', 'features_600.csv')
+FEATURE_FILE = os.path.join(BASE_DIR, 'output','features', 'full_features.csv')
 MODEL_DIR = os.path.join(BASE_DIR, 'output', 'models')
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-MODEL_FILE = os.path.join(MODEL_DIR, 'rf_600model.pkl')
+MODEL_FILE = os.path.join(MODEL_DIR, 'rf_model.pkl')
 # SCALER_FILE = os.path.join(MODEL_DIR, 'scaler_rf.pkl')
 
 # read data

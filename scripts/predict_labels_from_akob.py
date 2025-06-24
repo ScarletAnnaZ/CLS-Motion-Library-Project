@@ -8,6 +8,7 @@ import joblib
 # 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
+#AKOB_BVH_FILE = os.path.join(BASE_DIR, 'data', '13', '13_17.bvh') 
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')

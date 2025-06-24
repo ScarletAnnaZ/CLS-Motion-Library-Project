@@ -8,7 +8,7 @@ from label_to_action_mapping import get_agent_action
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LABEL_FILE      = os.path.join(BASE_DIR, 'output', 'akob_segment_labels_rf.csv')
 JSON_LABEL_FILE = os.path.join(BASE_DIR, 'output','standardized_labels.json')
-BVH_DIR         = os.path.join(BASE_DIR, 'output','processed600_bvh')  
+BVH_DIR         = os.path.join(BASE_DIR, 'output','processed_bvhtest')  
 OUTPUT_FILE     = os.path.join(BASE_DIR, 'output', 'segment_responses.csv')
 
 # random.seed(42)
