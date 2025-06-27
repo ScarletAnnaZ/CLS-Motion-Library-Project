@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_DIR = os.path.join(BASE_DIR, 'output2')
 window_sizes = [10, 30, 60, 100, 120, 240, 600]
-SAMPLE_SIZE = 1200
+SAMPLE_SIZE = 1685
 
 # ==== 结果收集 ====
 results_knn = []
@@ -31,7 +31,7 @@ for win in window_sizes:
         print(f"❌ Missing Label column: {file_path}")
         continue
 
-    # 分层采样确保每类有代表样本
+    # Hierarchical sampling
     if len(df) > SAMPLE_SIZE:
         try:
             df, _ = train_test_split(df, train_size=SAMPLE_SIZE, stratify=df['Label'], random_state=42)

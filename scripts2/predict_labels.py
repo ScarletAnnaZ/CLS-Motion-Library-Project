@@ -7,8 +7,8 @@ import pandas as pd
 
 # ==== 配置路径 ====
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
-#INPUT_BVH = os.path.join(BASE_DIR, 'data', '13', '13_17.bvh')  # replace input
+#INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
+INPUT_BVH = os.path.join(BASE_DIR, 'data', '13', '13_17.bvh')  # replace input
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf_600model.pkl')  # 替换为训练好的模型路径
 CHANNEL_LIST_PATH = os.path.join(BASE_DIR, "output", "features", "extract_joint_channels.json")
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output2', 'predicted_segments.csv')
@@ -36,7 +36,7 @@ def get_channel_indices(bvh_data, required_channels):
         if ch in available_channels:
             indices.append(available_channels.index(ch))
         else:
-            indices.append(None)  # 缺失通道
+            indices.append(0.0)  # 缺失通道
     return indices
 
 def extract_segment_features(frames, indices):
