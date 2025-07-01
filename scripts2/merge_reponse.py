@@ -6,7 +6,7 @@ import pandas as pd
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_600')
 SELECTION_FILE = os.path.join(BASE_DIR, 'output2', 'predicted_segment_responses.csv')
-OUTPUT_BVH = os.path.join(BASE_DIR, 'output2', 'merged_response.bvh')
+OUTPUT_BVH = os.path.join(BASE_DIR, 'output2', 'merged_response1.bvh')
 
 # === 读取选择结果 ===
 df = pd.read_csv(SELECTION_FILE)
