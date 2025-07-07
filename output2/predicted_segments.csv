@@ -1,9 +1,6 @@
 Time Segment,Predicted Label
-segment_0,pantomime
-segment_1,animal behavior
-segment_2,pantomime
-segment_3,pantomime
-segment_4,pantomime
-segment_5,pantomime
-segment_6,pantomime
-segment_7,pantomime
+segment_0,various everyday behaviors
+segment_1,pantomime
+segment_2,animal behavior
+segment_3,animal behavior
+segment_4,animal behavior
