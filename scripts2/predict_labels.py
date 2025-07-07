@@ -20,9 +20,6 @@ def read_bvh(filepath):
     return bvh_data
 
 def get_channel_indices(bvh_data, required_channels):
-    """
-    查找所需通道在当前 bvh 文件中的索引，如果缺失则填充为 None
-    """
     available_channels = []
     for joint in bvh_data.get_joints():
         name = joint.name
@@ -34,21 +31,28 @@ def get_channel_indices(bvh_data, required_channels):
     indices = []
     for ch in required_channels:
         if ch in available_channels:
-            indices.append(available_channels.index(ch))
+            idx = available_channels.index(ch)
+            indices.append(int(idx))  # ✅ 强制转换为 int 类型！
         else:
-            indices.append(0.0)  # 缺失通道
+            indices.append(None)
     return indices
 
+
 def extract_segment_features(frames, indices):
-    """
-    提取 segment 特征（mean, std, min, max）忽略缺失通道
-    """
     segment_features = []
     for i in range(0, len(frames) - SEGMENT_LENGTH + 1, SEGMENT_LENGTH):
         segment = np.array(frames[i:i+SEGMENT_LENGTH], dtype=float)
         selected = []
         for idx in indices:
-            if idx is not None:
+            if not isinstance(idx, int):
+                # 如果是 float、None 或其他非法类型，跳过
+                selected.extend([0.0, 0.0, 0.0, 0.0])
+                continue
+            if idx < 0 or idx >= segment.shape[1]:
+                # 越界索引也跳过
+                selected.extend([0.0, 0.0, 0.0, 0.0])
+                continue
+            try:
                 values = segment[:, idx]
                 selected.extend([
                     np.mean(values),
@@ -56,10 +60,36 @@ def extract_segment_features(frames, indices):
                     np.min(values),
                     np.max(values)
                 ])
-            else:
-                selected.extend([0.0, 0.0, 0.0, 0.0])  # 缺失通道用0填充
+            except Exception as e:
+                print(f"⚠️ Warning: error at idx {idx}: {e}")
+                selected.extend([0.0, 0.0, 0.0, 0.0])
         segment_features.append(selected)
     return segment_features
+
+
+
+def classify_segment(input_bvh_path):
+    """
+    输入一个 BVH 文件路径，返回每个 600 帧 segment 的预测标签列表。
+    """
+    bvh_data = read_bvh(input_bvh_path)
+    frames = bvh_data.frames
+
+    with open(CHANNEL_LIST_PATH, "r") as f:
+        required_channels = json.load(f)
+
+    indices = get_channel_indices(bvh_data, required_channels)
+    segment_features = extract_segment_features(frames, indices)
+
+    if not segment_features:
+        print("❌ The input frames are less than SEGMENT_LENGTH. No valid segments found.")
+        return []
+
+    model = joblib.load(MODEL_PATH)
+    X = np.array(segment_features)
+    preds = model.predict(X)
+
+    return preds.tolist()
 
 def main():
     # 加载 bvh
@@ -101,4 +131,19 @@ def main():
 if __name__ == "__main__":
     main()
     # 保存预测结果为 CSV
+'''
+if __name__ == "__main__":
+    preds = classify_segment(INPUT_BVH)
+    print("✅ Predicted Labels:")
+    for i, label in enumerate(preds):
+        print(f"Segment {i}: {label}")
+    
+    # 保存预测结果为 CSV
+    df = pd.DataFrame({
+        "Time Segment": [f"segment_{i}" for i in range(len(preds))],
+        "Predicted Label": preds
+    })
+    df.to_csv(OUTPUT_CSV, index=False)
+    print(f"✅ Prediction results saved to: {OUTPUT_CSV}")
+'''
 
