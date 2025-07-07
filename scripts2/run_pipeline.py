@@ -6,7 +6,7 @@ from bvh import Bvh
 import json
 import random
 
-# path setting
+# Path setting
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_BVH = os.path.join(BASE_DIR, 'data', '13', '13_12.bvh') # change the input data
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'rf_600model.pkl') # change the different model-from 'output/models'
