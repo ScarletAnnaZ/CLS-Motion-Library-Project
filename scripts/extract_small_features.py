@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from bvh import Bvh
 
-# 项目根目录
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROCESSED_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'output', 'features')
@@ -19,11 +19,11 @@ def read_bvh(filepath):
 
 def extract_features(bvh_data):
     """
-    从 BVH 文件中提取特征向量（位置 + 旋转）
-    返回：一个 (帧数, 特征数) 的矩阵
+    Extract feature vectors (position rotation) from BVH files
+Return: A matrix of (frames, features)
     """
     frames = np.array(bvh_data.frames, dtype=float)
-    return frames  # 返回每一帧的所有数据作为特征矩阵
+    return frames  # Return all the data of each frame as the feature matrix
 
 def load_labels(labels_file):
     with open(labels_file, 'r', encoding='utf-8') as f:
@@ -32,17 +32,17 @@ def load_labels(labels_file):
 def process_file(file_path, label):
     bvh_data = read_bvh(file_path)
     features = extract_features(bvh_data)
-    labels = [label] * len(features)  # 每一帧都附上相同的标签
+    labels = [label] * len(features)  #  attach the same label to each frame
     return features, labels
 
 def save_features(features_list, labels_list, output_file):
-    # 将所有特征与标签合并
+    # Merge all features with labels
     all_features = np.vstack(features_list)
     all_labels = np.concatenate(labels_list)
 
-    # 将数据保存为 DataFrame
+    # save as DataFrame
     df = pd.DataFrame(all_features)
-    df['Label'] = all_labels  # 添加标签列
+    df['Label'] = all_labels 
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     df.to_csv(output_file, index=False)

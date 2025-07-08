@@ -2,19 +2,19 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 路径设置
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEGMENT_CSV = os.path.join(BASE_DIR, 'output', 'akob_segment_labels.csv')
 
-# 读取段落标签数据
+# read file
 df = pd.read_csv(SEGMENT_CSV)
 
-# 提取时间范围（起止秒数）
+# set the time range
 df['start'] = df['Time Segment'].apply(lambda x: float(x.split('-')[0]))
 df['end'] = df['Time Segment'].apply(lambda x: float(x.split('-')[1].split()[0]))
 df['duration'] = df['end'] - df['start']
 
-# 可视化
+# visualization
 fig, ax = plt.subplots(figsize=(14, 4))
 y = 1
 

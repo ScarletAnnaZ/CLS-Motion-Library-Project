@@ -23,30 +23,28 @@ df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=["Label"]).values
 y = df["Label"].values
 
-# ==== 特征标准化（可选） ====
+# feature standardization (optional)
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
 # joblib.dump(scaler, SCALER_FILE)
 
-# ==== 拆分训练测试集 ====
+# split the training test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# ==== 训练 Random Forest ====
+# train Random Forest 
 rf = RandomForestClassifier(n_estimators=100, max_depth=20, class_weight='balanced', random_state=42)
 rf.fit(X_train, y_train)
 
-# ==== 保存模型 ====
+# Save the trained model
 joblib.dump(rf, MODEL_FILE)
 print(f"✅ Random Forest model saved to {MODEL_FILE}")
 
-# ==== 模型评估 ====
+# model evaluation report
 y_pred = rf.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"\n✅ Accuracy: {acc:.4f}")
 print("📊 Classification Report:\n")
 print(classification_report(y_test, y_pred))
-
-# ==== 混淆矩阵可视化 ====
 
 #  confusion matrix
 plt.figure(figsize=(12, 8))

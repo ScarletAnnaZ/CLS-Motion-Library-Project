@@ -11,7 +11,7 @@ def load_summary(file_path):
     return pd.read_csv(file_path)
 
 def add_labels(ax):
-    """在柱状图上添加标签"""
+    
     for p in ax.patches:
         height = p.get_height()
         if height > 0:  # only show non-zero values

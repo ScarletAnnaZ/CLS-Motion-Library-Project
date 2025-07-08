@@ -22,7 +22,7 @@ df = pd.read_excel(excel_path, skiprows=10)
 df = df[['MOTION', 'DESCRIPTION from CMU web database', 'SUBJECT from CMU web database']]
 df.columns = ['motion_id', 'long_label', 'subject_raw']
 
-# Extract short label ( SUBJECT 字段里提取第一个关键词）
+# Extract short label ( extarct the first key words from SUBJECT ）
 df['short_label'] = df['subject_raw'].str.extract(r'Subject #[0-9]+ \((.*?)\)', expand=False)
 df['short_label'] = df['short_label'].str.split(',').str[0].str.strip().str.lower()
 

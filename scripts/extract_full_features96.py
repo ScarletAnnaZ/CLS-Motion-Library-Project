@@ -12,11 +12,13 @@ SUMMARY_FILE = os.path.join(BASE_DIR, 'output', 'bvh_summary.csv')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'full_features.csv')
 TARGET_FRAMES = 600
 
+# read a BVH file
 def read_bvh(filepath):
     with open(filepath, 'r') as file:
         data = file.read()
         return Bvh(data)
 
+# Extract raw numerical features 
 def extract_features(bvh_data):
     return np.array(bvh_data.frames, dtype=float)
 
@@ -24,12 +26,14 @@ def load_labels(labels_file):
     with open(labels_file, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+# extract frame-wise features and assign a label to each frame
 def process_file(file_path, label):
     bvh_data = read_bvh(file_path)
     features = extract_features(bvh_data)
     labels = [label] * len(features)
     return features, labels
 
+# Save all features and labels
 def save_features(features_list, labels_list, output_file):
     all_features = np.vstack(features_list)
     all_labels = np.concatenate(labels_list)
@@ -40,6 +44,7 @@ def save_features(features_list, labels_list, output_file):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     df.to_csv(output_file, index=False)
     print(f"\n✅ Features saved to {output_file}")
+
 
 def process_all_files(summary_file, labels_dict, processed_dir, output_file):
     df_summary = pd.read_csv(summary_file)

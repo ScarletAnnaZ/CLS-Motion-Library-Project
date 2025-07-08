@@ -1,3 +1,5 @@
+# test the feature extraction experiments
+
 import os
 import json
 import numpy as np
@@ -9,7 +11,7 @@ DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABELS_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'knn4_features.csv')
 
-# 指定要提取的通道组合（joint, channel, stat_name）
+# Specify the combination of channels to be extracted（joint, channel, stat_name）
 target_channels = [
     ('Hips', 'Yposition', 'mean'),
     ('Head', 'Zrotation', 'std'),

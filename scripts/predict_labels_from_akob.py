@@ -5,21 +5,21 @@ import pandas as pd
 from bvh import Bvh
 import joblib
 
-# 
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AKOB_BVH_FILE = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
-#AKOB_BVH_FILE = os.path.join(BASE_DIR, 'data', '13', '13_17.bvh') 
+#AKOB_BVH_FILE = os.path.join(BASE_DIR, 'data', '13', '13_17.bvh') # can change the input data from cmu dataset
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_model.pkl')
 CHANNEL_JSON = os.path.join(BASE_DIR, 'output', 'features', 'extract_joint_channels.json')
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output', 'akob_label_list.csv')
 
-#  BVH ====
+# read BVH file
 def read_bvh(filepath):
     with open(filepath, 'r') as f:
         bvh = Bvh(f.read())
     return bvh
 
-# ==== feature extract ：按照 joint_channels 顺序提取每帧 96 通道值 ====
+# feature extract ：Extract the 96 channel values per frame in the order of joint_channels 
 def extract_framewise_features(bvh, joint_channels):
     all_frames = []
 
@@ -30,7 +30,7 @@ def extract_framewise_features(bvh, joint_channels):
             try:
                 val = float(bvh.frame_joint_channel(i, joint, ch))
             except:
-                val = 0.0  # 如果该 joint 或通道不存在，则设为 0
+                val = 0.0  # If the joint or channel does not exist, set it to 0
             frame_data.append(val)
         all_frames.append(frame_data)
 
@@ -57,7 +57,7 @@ def main():
     for i in range(len(frame_features)):
         feature_vec = frame_features[i].reshape(1, -1)
         label = knn.predict(feature_vec)[0]
-        label_list.append((i, label))  # 或改为 time = i / FPS
+        label_list.append((i, label))  # or time = i / FPS
  
     df = pd.DataFrame(label_list, columns=["Frame", "Predicted Label"])
     # df.to_csv(OUTPUT_CSV, index=False)
@@ -65,7 +65,6 @@ def main():
 
 
 #  ！！ Aggregating every 600 frames--6s
-# ===============================
     print("\n🔄 Aggregating every 600 frames...")
 
     SEGMENT_SIZE = 600  # Each section has 600 frames
@@ -83,7 +82,7 @@ def main():
         segment_labels.append((f"{start_sec:.2f}-{end_sec:.2f} sec", dominant))
         print(f"🟢 {start_sec:.2f}-{end_sec:.2f}s → {dominant}")
 
-    # csv
+    # save csv
     segment_df = pd.DataFrame(segment_labels, columns=["Time Segment", "Dominant Label"])
     segment_csv = os.path.join(BASE_DIR, 'output', 'akob_segment_labels_rf.csv')
     segment_df.to_csv(segment_csv, index=False)

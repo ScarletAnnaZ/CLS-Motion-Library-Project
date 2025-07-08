@@ -10,7 +10,7 @@ DATA_DIR = os.path.join(BASE_DIR, 'output', 'processed600_bvh')
 LABEL_FILE = os.path.join(BASE_DIR, 'output', 'standardized_labels.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output', 'features', 'full_frame_features.csv')
 
-# 想要提取的通道
+# The channel you want to extract
 POSITION_CHANNELS = ['Xposition', 'Yposition', 'Zposition']
 ROTATION_CHANNELS = ['Zrotation', 'Xrotation', 'Yrotation']
 ALL_CHANNELS = POSITION_CHANNELS + ROTATION_CHANNELS

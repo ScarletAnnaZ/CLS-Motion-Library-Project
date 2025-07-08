@@ -17,7 +17,6 @@ LABEL_TO_ACTION = {
    
 }
 
-
 def get_agent_action(label: str) -> str:
     """
     Given a predicted motion label, return the corresponding agent action.
