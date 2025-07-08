@@ -58,7 +58,7 @@ optimizer = BayesianOptimization(
 
 # progress function
 init_points = 5
-n_iter = 20
+n_iter = 10
 
 def logger(res):
     i = len(optimizer.res)
@@ -69,8 +69,7 @@ def logger(res):
 # optimization
 optimizer.maximize(
     init_points=init_points,
-    n_iter=n_iter,
-    callback=[logger]
+    n_iter=n_iter
 )
 
 # train the model with best parameters
