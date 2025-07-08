@@ -2,17 +2,17 @@ import os
 from bvh import Bvh
 import pandas as pd
 
-# === 路径设置 ===
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_600')
 SELECTION_FILE = os.path.join(BASE_DIR, 'output2', 'predicted_segment_responses.csv')
 OUTPUT_BVH = os.path.join(BASE_DIR, 'output2', 'merged_response1.bvh')
 
-# === 读取选择结果 ===
+# read the file selected
 df = pd.read_csv(SELECTION_FILE)
 file_list = df["Selected Motion"].tolist()
 
-# === 合并 BVH 数据 ===
+# merge BVH data
 all_frames = []
 frame_time = None
 skeleton_text = None
@@ -45,7 +45,7 @@ for idx, fname in enumerate(file_list):
         print(f"❌ Error loading {fname}: {e}")
         continue
 
-# === 保存合并后的 BVH 文件 ===
+# save the new bvh file
 if all_frames:
     os.makedirs(os.path.dirname(OUTPUT_BVH), exist_ok=True)
     with open(OUTPUT_BVH, 'w', encoding='utf-8') as fout:

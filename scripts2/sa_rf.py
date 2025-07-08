@@ -9,13 +9,13 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-# ==== 配置路径与参数 ====
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURE_DIR = os.path.join(BASE_DIR, 'output2')
 window_sizes = [10, 30, 60, 100, 120, 240, 600]
 SAMPLE_SIZE = 1685
 
-# ==== 结果收集 ====
+# result cellection
 results_knn = []
 results_rf = []
 
@@ -41,12 +41,12 @@ for win in window_sizes:
     else:
         print(f"⚠️ Window {win}: Only {len(df)} samples, using all")
 
-    # 特征与标签
+    # features + labels
     X = df.drop(columns=['Label']).values
     y = df['Label'].values
     X = StandardScaler().fit_transform(X)
 
-    # 训练集/测试集划分
+    # split train and test set
     try:
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.2, random_state=42, stratify=y)
@@ -55,14 +55,14 @@ for win in window_sizes:
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.2, random_state=42)
 
-    # ==== KNN ====
+    # train KNN 
     knn = KNeighborsClassifier(n_neighbors=5)
     knn.fit(X_train, y_train)
     y_pred_knn = knn.predict(X_test)
     acc_knn = accuracy_score(y_test, y_pred_knn)
     results_knn.append((win, acc_knn))
 
-    # ==== RF ====
+    # train RF 
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
     rf.fit(X_train, y_train)
     y_pred_rf = rf.predict(X_test)
@@ -71,12 +71,12 @@ for win in window_sizes:
 
     print(f"✅ Window {win}: KNN Accuracy = {acc_knn:.4f}, RF Accuracy = {acc_rf:.4f}")
 
-# ==== 转换结果为 DataFrame ====
+# transfer the result as DataFrame 
 df_knn = pd.DataFrame(results_knn, columns=['window_size', 'knn_accuracy']).sort_values('window_size')
 df_rf = pd.DataFrame(results_rf, columns=['window_size', 'rf_accuracy']).sort_values('window_size')
 df_merged = pd.merge(df_knn, df_rf, on='window_size')
 
-# ==== 可视化 ====
+# visualization
 
 plt.figure(figsize=(10, 6))
 plt.plot(df_rf['window_size'], df_rf['rf_accuracy'], marker='o')
@@ -98,6 +98,6 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# ==== 打印表格 ====
+# print 
 print("\n📊 Combined Accuracy Table:")
 print(df_merged)

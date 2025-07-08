@@ -13,6 +13,7 @@ def read_bvh_file(filepath):
     return Bvh(data)
 
 
+# Write a single segment as a new BVH file
 def write_bvh_segment(bvh_obj, header_lines, segment_frames, output_path):
     with open(output_path, 'w') as f:
         for line in header_lines:
@@ -22,7 +23,7 @@ def write_bvh_segment(bvh_obj, header_lines, segment_frames, output_path):
         for frame in segment_frames:
             f.write(" ".join(frame) + "\n")
 
-
+# Split a single BVH file into multiple segments
 def extract_segments(bvh_path, segment_size):
     bvh_obj = read_bvh_file(bvh_path)
     motion_frames = bvh_obj.frames
@@ -31,13 +32,14 @@ def extract_segments(bvh_path, segment_size):
         return []  # Skip files too short
 
     segments = []
+    # Segment according to the step size of segment_size (without overlap)
     for start in range(0, len(motion_frames) - segment_size + 1, segment_size):
         segment = motion_frames[start:start + segment_size]
         segments.append(segment)
 
     return segments, bvh_obj
 
-
+# Extract the header of the BVH file (i.e., the content before MOTION in the HIERARCHY section)
 def extract_bvh_header(filepath):
     header = []
     with open(filepath, 'r') as f:
@@ -47,7 +49,7 @@ def extract_bvh_header(filepath):
             header.append(line)
     return header
 
-
+# Handle all BVH files
 def process_all_segments():
     for seg_size in SEGMENT_SIZES:
         output_dir = os.path.join(OUTPUT_BASE_DIR, f"segments_{seg_size}")

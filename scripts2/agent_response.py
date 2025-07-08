@@ -13,7 +13,7 @@ OUTPUT_FILE = os.path.join(BASE_DIR, 'output2', 'predicted_segment_responses.csv
 
 STRATEGY = "mirror"  #change the strate
 
-#加载 motion 标签库 
+# Load the motion tag library
 with open(STANDARD_LABEL_FILE, 'r', encoding='utf-8') as f:
     label_map = json.load(f)
 
@@ -36,13 +36,13 @@ def sample_motion_by_strategy(predicted_label: str) -> str:
 def main():
     df = pd.read_csv(PREDICTED_LABEL_FILE)
 
-    # 得到 Response Label 列
+    # get Response Label column
     df["Response Label"] = df["Predicted Label"].astype(str).apply(lambda x: get_agent_action(x.strip(), strategy=STRATEGY))
 
-    # 根据 Response Label 随机选 motion
+    # Randomly select the motion based on the Response Label
     df["Selected Motion"] = df["Response Label"].apply(sample_motion_by_strategy)
 
-    # 保存结果
+    # save reslut
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Strategy='{STRATEGY}' responses saved to: {OUTPUT_FILE}")
     print(df.head(10).to_string(index=False))

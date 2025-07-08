@@ -4,13 +4,13 @@ import numpy as np
 import pandas as pd
 from bvh import Bvh
 
-# 路径配置
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_120')  # 每段 motion 的切片文件夹
+SEGMENT_DIR = os.path.join(BASE_DIR, 'output2', 'segments_120')  # The folder of motion with different frames sizes
 LABELS_PATH = os.path.join(BASE_DIR, 'output2', 'segment_labels_120.json')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'output2', 'features', 'segment120_features.csv')
 
-# 特征提取：计算每个通道的 mean, std, min, max
+# Feature extraction: Calculate the mean, std, min, and max of each channel
 def extract_statistics_from_segment(bvh_path):
     with open(bvh_path, 'r') as f:
         mocap = Bvh(f.read())
@@ -19,7 +19,7 @@ def extract_statistics_from_segment(bvh_path):
     if frames.shape[0] == 0:
         raise ValueError(f"No frames in file: {bvh_path}")
     
-    # 统计特征：mean, std, min, max → shape = [4, C]
+    # statistic: mean, std, min, max → shape = [4, C]
     stats = np.vstack([
         np.mean(frames, axis=0),
         np.std(frames, axis=0),
@@ -29,10 +29,11 @@ def extract_statistics_from_segment(bvh_path):
     
     return stats.flatten()  # → shape = [C * 4]
 
-# 读取标签字典
+# read the label
 def load_label_dict(json_path):
     with open(json_path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
 
 def main():
     label_dict = load_label_dict(LABELS_PATH)
@@ -55,9 +56,9 @@ def main():
         except Exception as e:
             print(f"❌ Failed on {filename}: {e}")
     
-    # 构建 DataFrame 并保存
+    # creat DataFrame and save
     if data:
-        feature_dim = len(data[0]) - 2  # 不包括 filename 和 label
+        feature_dim = len(data[0]) - 2  # exclude filename and label
         columns = ['motion_id'] + [f'feature_{i+1}' for i in range(feature_dim)] + ['Label']
         df = pd.DataFrame(data, columns=columns)
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)

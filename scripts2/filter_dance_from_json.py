@@ -50,14 +50,12 @@ def filter_dance_labels(input_path, output_json):
 
     print(f"Found {len(filtered)} dance-related motions.")
 
-    # 保存为 JSON
+    # save as JSON file
     with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(filtered, f, indent=4, ensure_ascii=False)
 
 
     print(f"✅ Saved to {output_json}")
-
-
 
 
 # creat the new library

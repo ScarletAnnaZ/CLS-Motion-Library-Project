@@ -5,7 +5,7 @@ import joblib
 from bvh import Bvh
 import pandas as pd
 
-# ==== 配置路径 ====
+# path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_BVH = os.path.join(BASE_DIR, 'input_AKOB', '1stmay', 'Take 2020-05-01 11.26.00_FB_mirror,follow,drones_follow.bvh')
 MODEL_PATH = os.path.join(BASE_DIR, 'output', 'models', 'knn_seg120.pkl')
@@ -13,7 +13,7 @@ CHANNEL_LIST_PATH = os.path.join(BASE_DIR, "output", "features", "extract_joint_
 OUTPUT_CSV = os.path.join(BASE_DIR, 'output2', 'predicted_sliding_segments.csv')
 
 SEGMENT_LENGTH = 120
-STEP_SIZE = 60  # 每次滑动多少帧
+STEP_SIZE = 60  # frames slid each time
 
 def read_bvh(filepath):
     with open(filepath, "r") as f:

@@ -21,18 +21,18 @@ for win in window_sizes:
         continue
     
     df = pd.read_csv(file_path)
-    # 统一采样数量（比如最多使用 1000 个 segment）
+    # Unify the sampling quantity (for example, using a maximum of 1000 segments)
     SAMPLE_SIZE = 1600
-       # 分层采样确保每个类别按比例保留
+       # Stratified sampling ensures that each category is retained proportionally
     if len(df) > SAMPLE_SIZE:
         try:
             df_sampled, _ = train_test_split(df, train_size=SAMPLE_SIZE, stratify=df['Label'], random_state=42)
             df = df_sampled
         except ValueError:
-            print(f"⚠️ Window {win}: 某些标签样本过少，无法 stratify（如某类样本数 < 2），使用随机采样替代")
+            print(f"⚠️ Window {win}: Some label samples are too few to stratify (a certain type is less than 2), and random sampling is used as an alternative")
             df = df.sample(n=SAMPLE_SIZE, random_state=42)
     else:
-        print(f"⚠️ Window {win}: 数据量只有 {len(df)}，不足 {SAMPLE_SIZE}，保留全部")
+        print(f"⚠️ Window {win}: The amount of data is only{len(df)},less {SAMPLE_SIZE},keep all")
 
     
     if 'Label' not in df.columns:

@@ -26,6 +26,7 @@ def read_bvh(filepath):
         bvh_data = Bvh(f.read())
     return bvh_data
 
+# # Map required channel names to their column indices in the BVH frames
 def get_channel_indices(bvh_data, required_channels):
     available_channels = []
     for joint in bvh_data.get_joints():
@@ -44,6 +45,7 @@ def get_channel_indices(bvh_data, required_channels):
             indices.append(None)
     return indices
 
+# Extract statistical features for each 600-frame segment
 def extract_segment_features(frames, indices):
     segment_features = []
     for i in range(0, len(frames) - SEGMENT_LENGTH + 1, SEGMENT_LENGTH):
@@ -66,6 +68,8 @@ def extract_segment_features(frames, indices):
         segment_features.append(selected)
     return segment_features
 
+
+# Step 1: Predict motion labels for each segment
 def step1_predict_labels():
     print("1️⃣ Step 1: Predicting motion labels...")
     bvh_data = read_bvh(INPUT_BVH)
@@ -86,6 +90,8 @@ def step1_predict_labels():
     df.to_csv(PREDICTED_LABEL_FILE, index=False)
     print(f"✅ Saved predicted labels to: {PREDICTED_LABEL_FILE}")
 
+
+# Define rule-based response strategy
 def get_agent_action(label: str, strategy: str = "mirror") -> str:
     label = label.strip()
     if strategy == "mirror":
@@ -93,26 +99,33 @@ def get_agent_action(label: str, strategy: str = "mirror") -> str:
     else:
         return "invalid_strategy"
 
+# Sample motion segment from motion library based on label
 def sample_motion_by_strategy(predicted_label: str, label_map: dict) -> str:
     response_label = get_agent_action(predicted_label.strip(), strategy=STRATEGY)
     candidates = label_map.get(response_label, [])
     return f"{random.choice(candidates)}" if candidates else "no_motion_found"
 
+# # Step 2: Generate response labels and sample motions
 def step2_generate_responses():
     print("2️⃣ Step 2: Generating agent responses...")
     with open(STANDARD_LABEL_FILE, 'r', encoding='utf-8') as f:
         full_label_map = json.load(f)
+    
+    # Group motion segments by response label
     label_to_motion_ids = {}
     for motion_id, info in full_label_map.items():
         label = info.get("category", "").strip()
         label_to_motion_ids.setdefault(label, []).append(motion_id)
 
+    # Apply strategy to predicted labels
     df = pd.read_csv(PREDICTED_LABEL_FILE)
     df["Response Label"] = df["Predicted Label"].astype(str).apply(lambda x: get_agent_action(x.strip(), strategy=STRATEGY))
     df["Selected Motion"] = df["Response Label"].apply(lambda x: sample_motion_by_strategy(x, label_to_motion_ids))
     df.to_csv(RESPONSE_FILE, index=False)
     print(f"✅ Saved response mapping to: {RESPONSE_FILE}")
 
+
+# Step 3: Merge all selected segments into a single BVH output
 def step3_merge_responses():
     print("3️⃣ Step 3: Merging response segments into one .bvh file...")
     df = pd.read_csv(RESPONSE_FILE)
@@ -135,7 +148,8 @@ def step3_merge_responses():
             skeleton_text = raw.split("MOTION")[0]
             frame_time = bvh.frame_time
         all_frames.extend(bvh.frames)
-
+        
+    # Write final merged BVH if valid frames exist
     if all_frames:
         with open(MERGED_OUTPUT_BVH, 'w', encoding='utf-8') as fout:
             fout.write(skeleton_text)
@@ -154,7 +168,7 @@ df = pd.read_csv(RESPONSE_FILE)
 print(df[["Time Segment", "Predicted Label", "Selected Motion"]])
 
 
-# === 主程序入口 ===
+# Run full 3-step pipeline
 if __name__ == "__main__":
     step1_predict_labels()
     step2_generate_responses()

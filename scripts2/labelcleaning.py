@@ -27,11 +27,11 @@ CATEGORY_MAPPING = {
     "assorted motions":"general movement"
 }
 
-# 加载原始文件
+# load original file
 with open(INPUT_JSON, 'r', encoding='utf-8') as f:
     raw_labels = json.load(f)
 
-# 映射新标签
+# mapping new labels
 mapped_labels = {}
 for motion_id, info in raw_labels.items():
     original_category = info.get("category", "")
@@ -41,7 +41,7 @@ for motion_id, info in raw_labels.items():
         "category": mapped_category
     }
 
-# 保存结果
+# save file
 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(mapped_labels, f, indent=4, ensure_ascii=False)
 
