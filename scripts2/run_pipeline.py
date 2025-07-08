@@ -17,7 +17,7 @@ STANDARD_LABEL_FILE = os.path.join(BASE_DIR, 'output2', 'segment_labels_600.json
 SEGMENT_DIR = os.path.join(BASE_DIR, 'output2','segments_600') # motion library path
 RESPONSE_FILE = os.path.join(BASE_DIR, 'output2', 'predicted_segment_responses.csv') # file -- predicted segments' labels + response label + selected motion id
 MERGED_OUTPUT_BVH = os.path.join(BASE_DIR, 'output2', 'merged_response1.bvh') # generate final response motion
-STRATEGY = "mirror"
+STRATEGY = "mirror" # the response strategy used
 
 
 # Module function
@@ -67,7 +67,7 @@ def extract_segment_features(frames, indices):
     return segment_features
 
 def step1_predict_labels():
-    print("\n🚀 Step 1: Predicting motion labels...")
+    print("1️⃣ Step 1: Predicting motion labels...")
     bvh_data = read_bvh(INPUT_BVH)
     frames = bvh_data.frames
     with open(CHANNEL_LIST_PATH, "r") as f:
@@ -99,7 +99,7 @@ def sample_motion_by_strategy(predicted_label: str, label_map: dict) -> str:
     return f"{random.choice(candidates)}" if candidates else "no_motion_found"
 
 def step2_generate_responses():
-    print("\n🚀 Step 2: Generating agent responses...")
+    print("2️⃣ Step 2: Generating agent responses...")
     with open(STANDARD_LABEL_FILE, 'r', encoding='utf-8') as f:
         full_label_map = json.load(f)
     label_to_motion_ids = {}
@@ -114,7 +114,7 @@ def step2_generate_responses():
     print(f"✅ Saved response mapping to: {RESPONSE_FILE}")
 
 def step3_merge_responses():
-    print("\n🚀 Step 3: Merging response segments into one .bvh file...")
+    print("3️⃣ Step 3: Merging response segments into one .bvh file...")
     df = pd.read_csv(RESPONSE_FILE)
     file_list = df["Selected Motion"].tolist()
     all_frames = []

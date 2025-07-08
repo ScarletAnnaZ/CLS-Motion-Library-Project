@@ -31,62 +31,18 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 print(f"📊 Training set: {X_train.shape}, Test set: {X_test.shape}")
 
 # create and train KNN model
-best_knn = KNeighborsClassifier(n_neighbors=5)
-best_knn.fit(X_train, y_train)
-
-from tqdm import tqdm
-from sklearn.model_selection import cross_val_score
-from itertools import product
-import random
-
-'''
-# 随机采样超参数组合
-n_iter = 5
-param_combinations = list(product(
-    [5, 10, 15],                     # n_neighbors
-    ['uniform', 'distance'],        # weights
-    [1, 2]                           # p
-))
-
-random.shuffle(param_combinations)
-param_combinations = param_combinations[:n_iter]
-
-best_score = -1
-best_model = None
-best_params = {}
-
-print(" Searching best hyperparameters with progress:\n")
-
-for n_neighbors, weights, p in tqdm(param_combinations):
-    knn = KNeighborsClassifier(n_neighbors=n_neighbors, weights=weights, p=p)
-    score = cross_val_score(knn, X_train, y_train, cv=3).mean()
-    print(f"Params: n={n_neighbors}, w={weights}, p={p} → CV Score = {score:.4f}")
-    
-    if score > best_score:
-        best_score = score
-        best_knn = knn
-        best_params = {'n_neighbors': n_neighbors, 'weights': weights, 'p': p}
-
-print("\n🌟 Best hyperparameters:", best_params)
-print(f"✅ Best cross-validation accuracy: {best_score:.4f}")
-
-'''
-
-# Train best model
-# best_knn.fit(X_train, y_train)
-
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X_train, y_train)
 
 #！！store the model
-joblib.dump(best_knn, os.path.join(MODEL_DIR, 'knn_model.pkl'))
+joblib.dump(knn, os.path.join(MODEL_DIR, 'knn_model.pkl'))
 print(f"✅ KNN model saved to knn_model.pkl")
 
-# ========== 评估 ==========
-y_pred = best_knn.predict(X_test)
+# pre 
+y_pred = knn.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"\n✅ Accuracy: {acc:.4f}")
 
-# predict
-# y_pred = knn.predict(X_test)
 
 # output
 # accuracy = accuracy_score(y_test, y_pred)
@@ -94,7 +50,7 @@ print(f"\n✅ Accuracy: {acc:.4f}")
 print("Classification Report:\n")
 print(classification_report(y_test, y_pred))
 
-#  confusion matrix
+# confusion matrix
 plt.figure(figsize=(12, 8))
 cm = confusion_matrix(y_test, y_pred, labels=np.unique(y))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=np.unique(y), yticklabels=np.unique(y))
