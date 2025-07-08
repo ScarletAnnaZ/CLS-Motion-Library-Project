@@ -21,7 +21,12 @@ MODEL_FILE = os.path.join(MODEL_DIR, 'knn_bayes.pkl')
 # load the data
 df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=["Label"]).values
-y = df["Label"].values
+from sklearn.preprocessing import LabelEncoder
+
+label_encoder = LabelEncoder()
+y = label_encoder.fit_transform(df["Label"].values)  # Encode string labels to integers
+
+# y = df["Label"].values
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
