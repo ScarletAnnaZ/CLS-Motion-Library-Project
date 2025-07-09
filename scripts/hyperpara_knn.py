@@ -23,10 +23,12 @@ df = pd.read_csv(FEATURE_FILE)
 X = df.drop(columns=["Label"]).values
 from sklearn.preprocessing import LabelEncoder
 
+'''
 label_encoder = LabelEncoder()
 y = label_encoder.fit_transform(df["Label"].values)  # Encode string labels to integers
+'''
 
-# y = df["Label"].values
+y = df["Label"].values
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
@@ -43,7 +45,7 @@ def knn_cv(n_neighbors, p, weights_flag):
         weights=weights,
         p=p
     )
-    score = cross_val_score(model, X_train, y_train, cv=5, scoring='accuracy').mean()
+    score = cross_val_score(model, X_train, y_train, cv=2, scoring='accuracy').mean()
     return score
 
 # Define the search space
