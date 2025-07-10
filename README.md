@@ -13,16 +13,16 @@ This project is part of a research collaboration focused on real-time human-robo
    pip install --upgrade pip
    ```
 
-3. Then install dependencies from the requirements.txt file(The `requirements.txt` file is located in the root directory of this repository. It contains all necessary Python packages to run the project.  )
+3. Then install dependencies from the requirements.txt file(The 'requirements.txt' file is located in the root directory of this repository. It contains all necessary Python packages to run the project.  )
    ```bash
    pip install -r requirements.txt
    ```
 ## Start The Project
  ### 1. Prepare dataset
 
-This project operates on motion capture data in `.bvh` format. To use your own data or the provided samples, follow the steps below.
+This project operates on motion capture data in '.bvh' format. To use your own data or the provided samples, follow the steps below.
 
-1. Place raw `.bvh` files: Create a `data/` directory in the root of the project (if it doesn't already exist), and place your raw motion files there. (The data project used is from CMU Dataset. If you want to use it as well, you can find:https://mocap.cs.cmu.edu/)
+1. Place raw '.bvh' files: Create a 'data/' directory in the root of the project (if it doesn't already exist), and place your raw motion files there. (The data project used is from CMU Dataset. If you want to use it as well, you can find:https://mocap.cs.cmu.edu/)
 2. Use scripts in scripts/ to:
 
     - Standardise the label file
@@ -46,7 +46,7 @@ Open Blender and import the output motion to visualize the results.
 - Sensitivity analysis -- explore the influence on both KNN and RF models with different segment sizes (frame sizes[10,30,60...])
 
 ## Quick review
-You can try the script of scrpit2/run_pipeline.py. This script combines the process together with prediction labels, using response strategies, selects and merges motion segments. You can quickly change the path of input data and the model you want to use to experiment and understand the progress of the project.
+You can try the script of 'scrpit2/run_pipeline.py'. This script combines the process together with prediction labels, using response strategies, selects and merges motion segments. You can quickly change the path of input data and the model you want to use to experiment and understand the progress of the project.
 
 ### ⚠️ Note
 Due to GitHub's file size limitations, this repository does not include the original motion capture datasets (BVH files), the processed motion library, extracted feature files, or trained model files. Before running the project, please manually import the required datasets and complete the following steps:
@@ -55,4 +55,4 @@ Due to GitHub's file size limitations, this repository does not include the orig
 
 - Feature extraction and model training
 
-Only after completing these steps should you run the main pipeline script script2/run_pipeline.py for inference or demonstration.
+Only after completing these steps should you run the main pipeline script 'script2/run_pipeline.py' for inference or demonstration.
