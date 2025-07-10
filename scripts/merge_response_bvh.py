@@ -4,7 +4,7 @@
 import os
 import random
 from bvh import Bvh
-from generate_agent_responses import get_file_list   # <- 新增
+from generate_agent_responses import get_file_list   
                                          
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BVH_DIR     = os.path.join(BASE_DIR,'output','processed_bvhtest')
